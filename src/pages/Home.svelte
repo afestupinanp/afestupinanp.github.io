@@ -10,6 +10,7 @@
     import KnowledgeSection from "./Home/KnowledgeSection.svelte";
     import StandOutProject from "./Home/StandOutProject.svelte";
     import { link } from "svelte-spa-router";
+    import HeaderSection from "./Home/HeaderSection.svelte";
 
     $: document.title = 'Andrés Peláez | ' + $_('home.title');
 </script>
@@ -22,10 +23,7 @@
         </div>
     </div>
     <div class="col-12">
-        <div class="border-primary position-relative slideIn p-4">
-            <i class="fa-solid fa-computer fs-4 me-4"></i>
-            <span class="fs-4">{$_('home.sections.my-knowledge')}</span>
-        </div>
+        <HeaderSection color="primary" icon="fa-solid fa-computer" text={$_('home.sections.my-knowledge')}  />
     </div>
     <div class="col-12">
         <div class="row">
@@ -36,10 +34,7 @@
         </div>
     </div>
     <div class="col-12">
-        <div class="border-primary position-relative slideIn p-4">
-            <i class="fa-solid fa-briefcase fs-4 me-4"></i>
-            <span class="fs-4">{$_('home.sections.stand-out-projects')}</span>
-        </div>
+        <HeaderSection color="primary" icon="fa-solid fa-briefcase" text={$_('home.sections.stand-out-projects')}  />
         <p class="slideIn position-relative">{$_('projects.nda-warning')}</p>
     </div>
     <StandOutProject type="1" image={sipacImage} title={$_('projects.sipac.title')} description={$_('projects.sipac.description')} url="https://sipac2.usc.edu.co" />

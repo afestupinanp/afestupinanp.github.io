@@ -4,7 +4,7 @@
     import Navbar from './components/Navbar.svelte';
     import Footer from './components/Footer.svelte';
     import Helpers from './helpers';
-    import { addMessages, getLocaleFromNavigator, init } from 'svelte-i18n';
+    import { addMessages, init } from 'svelte-i18n';
 
     import es from './lang/es.json';
     import en from './lang/en.json';

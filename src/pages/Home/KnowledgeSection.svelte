@@ -9,7 +9,7 @@
     export let offset = '';
 </script>
 
-<div class="col-12 {offset} col-lg-3 mb-3 d-flex align-items-stretch">
+<div class="col-12 {offset} col-lg-3 mb-3 d-flex align-items-stretch my-4">
     <div class="card glow">
         <div class="card-body border-knowledge border-knowledge-{borderClass} text-center">
             <i style="margin-top: 50px; margin-bottom: 50px;" class="{iconClass} fs-1 me-4"></i>

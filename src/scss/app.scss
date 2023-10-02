@@ -23,19 +23,27 @@
 }
 
 .border-knowledge-primary {
-    border-color: bootstrap.$primary;
+    border-top-color: bootstrap.$primary;
 }
 
 .border-knowledge-danger {
-    border-color: bootstrap.$danger;
+    border-top-color: bootstrap.$danger;
 }
 
 .border-knowledge-info {
-    border-color: bootstrap.$info;
+    border-top-color: bootstrap.$info;
 }
 
 .border-knowledge-warning {
-    border-color: bootstrap.$warning;
+    border-top-color: bootstrap.$warning;
+}
+
+.border-section {
+    border-left: 3px solid;
+}
+
+.border-section-primary {
+    border-left-color: bootstrap.$primary;
 }
 
 .glow {
