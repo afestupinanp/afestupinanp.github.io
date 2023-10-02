@@ -4,7 +4,7 @@
     export let color;
 </script>
 
-<h4 class="d-inline-block">
+<h4 class="d-inline-block mx-2">
     <span class="badge text-bg-{color}">
         <i class="{icon} me-1"></i>
         {name}

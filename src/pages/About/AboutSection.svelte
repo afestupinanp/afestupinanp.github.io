@@ -11,7 +11,7 @@
 </script>
 
 <section class="py-3">
-    <h5 data-bs-toggle="collapse" href="#{sectionId}" aria-controls="{sectionId}">
+    <h5 class="hoverable" data-bs-toggle="collapse" href="#{sectionId}" aria-controls="{sectionId}">
         <i class={icon}></i>
         {title}
     </h5>

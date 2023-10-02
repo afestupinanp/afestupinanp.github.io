@@ -4,6 +4,8 @@
     import AboutSection from './About/AboutSection.svelte';
     import AboutBadge from './About/AboutBadge.svelte';
 
+    import badges from './About/badges.json';
+
     $: document.title = 'Andrés Peláez | ' + $_('about.title');
     const current = new Date();
     let difference = current.getFullYear() - 2000;
@@ -20,24 +22,9 @@
     <div class="col-12 col-lg-8">
         <AboutSection icon="fa-solid fa-hammer" title={$_('about.abilities')}>
             <span slot="content">
-                <AboutBadge color="warning" icon="fa-brands fa-gitlab" name="GitLab Self Managed" />
-                <AboutBadge color="warning" icon="fa-brands fa-gitlab" name="GitLab CI/CD" />
-                <AboutBadge color="dark" icon="fa-brands fa-github" name="GitHub Actions" />
-                <AboutBadge color="danger" icon="fa-brands fa-git" name="Git" />
-                <AboutBadge color="info" icon="fa-brands fa-js" name="JavaScript/TypeScript" />
-                <AboutBadge color="danger" icon="fa-brands fa-css3" name="CSS3" />
-                <AboutBadge color="info" icon="fa-brands fa-docker" name="Docker" />
-                <AboutBadge color="dark" icon="fa-brands fa-php" name="php" />
-                <AboutBadge color="danger" icon="fa-brands fa-laravel" name="Laravel" />
-                <AboutBadge color="dark" icon="fa-brands fa-react" name="React (Native)" />
-                <AboutBadge color="dark" icon="fa-brands fa-microsoft" name="C#" />
-                <AboutBadge color="danger" icon="fa-brands fa-java" name="Java" />
-                <AboutBadge color="success" icon="fa-brands fa-vuejs" name="Vue.js" />
-                <AboutBadge color="warning" icon="fa-brands fa-linux" name="Linux" />
-                <AboutBadge color="info" icon="fa-brands fa-python" name="Python" />
-                <AboutBadge color="success" icon="fa-brands fa-node-js" name="Node.js" />
-                <AboutBadge color="dark" icon="fa-brands fa-bootstrap" name="Bootstrap" />
-                <AboutBadge color="danger" icon="fa-solid fa-code" name="Lua" />
+                {#each badges as badgeInfo}
+                    <AboutBadge color={badgeInfo.color} icon={badgeInfo.icon} name={badgeInfo.name} />
+                {/each}
             </span>
         </AboutSection>
         <AboutSection icon="fa-solid fa-user-circle" title={$_('about.myself')} description={$_('about.myself-description', {values: {'years': difference}})} />

@@ -18,6 +18,10 @@
     user-select: none;
 }
 
+.hoverable:hover {
+    cursor: pointer;
+}
+
 .border-knowledge {
     border-top: 3px solid;
 }

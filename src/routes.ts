@@ -1,7 +1,6 @@
 import { wrap } from "svelte-spa-router/wrap";
 import Loading from './components/Loading.svelte';
 
-import Home from './pages/Home.svelte';
 import NotFound from './pages/NotFound.svelte';
 
 export const baseRouteData: Object = {
@@ -9,8 +8,9 @@ export const baseRouteData: Object = {
 }
 
 export default {
-    '/': Home,
+    '/': wrap(Object.assign(baseRouteData, {'asyncComponent': () => import('./pages/Home.svelte')})),
     '/about': wrap(Object.assign(baseRouteData, {'asyncComponent': () => import('./pages/About.svelte')})),
-    '/projects': wrap(Object.assign(baseRouteData, {'asyncComponent': () => import('./pages/Projects.svelte')})),
+    '/experience': wrap(Object.assign(baseRouteData, {'asyncComponent': () => import('./pages/Experience.svelte')})),
+    '/projects/sipac': wrap(Object.assign(baseRouteData, {'asyncComponent': () => import('./pages/Projects/Sipac.svelte')})),
     '*': NotFound
 }

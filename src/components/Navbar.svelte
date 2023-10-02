@@ -22,7 +22,7 @@
     });
 </script>
 
-<nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+<nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary non-selectable">
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#pageNavbar" aria-controls="pageNavbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -43,13 +43,31 @@
             </div>
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link non-selectable" aria-current="page" use:link={{'href': '/'}}>{$_('navbar.home')}</a>
+                    <a class="nav-link" aria-current="page" use:link={{'href': '/'}}>{$_('navbar.home')}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link non-selectable" use:link={{'href': '/about'}}>{$_('navbar.about')}</a>
+                    <a class="nav-link" use:link={{'href': '/about'}}>{$_('navbar.about')}</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link non-selectable" use:link={{'href': '/projects'}} >{$_('navbar.projects')}</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown">{$_('navbar.projects')}</a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" use:link={{'href': '/experience'}}>{$_('experience.title')}</a>
+                        </li>
+                        <li class="dropdown-divider"></li>
+                        <li>
+                            <a class="dropdown-item" use:link={{'href': '/projects/sipac'}}>{$_('projects.sipac.title')}</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" use:link={{'href': '/projects/apps'}}>{$_('projects.apps.title')}</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" use:link={{'href': '/projects/ssmanager'}}>{$_('projects.ssmanager.title')}</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" use:link={{'href': '/projects/others'}}>{$_('projects.others')}</a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
             

@@ -1,0 +1,87 @@
+[
+    {
+        "color": "warning",
+        "name": "GitLab CI/CD",
+        "icon": "fa-brands fa-gitlab"
+    },
+    {
+        "color": "dark",
+        "name": "GitHub Actions",
+        "icon": "fa-brands fa-github"
+    },
+    {
+        "color": "danger",
+        "name": "Git",
+        "icon": "fa-brands fa-git"
+    },
+    {
+        "color": "info",
+        "name": "JavaScript/TypeScript",
+        "icon": "fa-brands fa-js"
+    },
+    {
+        "color": "danger",
+        "name": "CSS3",
+        "icon": "fa-brands fa-css3"
+    },
+    {
+        "color": "info",
+        "name": "Docker",
+        "icon": "fa-brands fa-docker"
+    },
+    {
+        "color": "dark",
+        "name": "php",
+        "icon": "fa-brands fa-php"
+    },
+    {
+        "color": "danger",
+        "name": "Laravel",
+        "icon": "fa-brands fa-laravel"
+    },
+    {
+        "color": "dark",
+        "name": "React (Native)",
+        "icon": "fa-brands fa-react"
+    },
+    {
+        "color": "dark",
+        "name": "C#",
+        "icon": "fa-brands fa-microsoft"
+    },
+    {
+        "color": "danger",
+        "name": "Java",
+        "icon": "fa-brands fa-java"
+    },
+    {
+        "color": "success",
+        "name": "Vue.js",
+        "icon": "fa-brands fa-vuejs"
+    },
+    {
+        "color": "warning",
+        "name": "Linux",
+        "icon": "fa-brands fa-linux"
+    },
+    {
+        "color": "info",
+        "name": "Python",
+        "icon": "fa-brands fa-python"
+    },
+    {
+        "color": "success",
+         "name": "Node.js",
+         "icon": "fa-brands fa-node-js"
+    },
+    {
+        "color": "dark",
+        "name": "Bootstrap",
+        "icon": "fa-brands fa-bootstrap"
+    },
+    {
+        "color": "danger",
+        "name": "Lua",
+        "icon": "fa-solid fa-code"
+    }
+]
