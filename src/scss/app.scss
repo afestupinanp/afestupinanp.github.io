@@ -1,0 +1,120 @@
+@use 'variables' as afe;
+
+@use '../../node_modules/bootstrap/scss/bootstrap.scss' as bootstrap with (
+    $primary: afe.$primary,
+    $font-family-base: afe.$font-family,
+    $font-size-base: 0.9rem, // used to be 1 rem,
+);
+
+// import fontawesome
+@import '../../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+
+// import Inter
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+// custom classes.
+.non-selectable {
+    user-select: none;
+}
+
+.border-knowledge {
+    border-top: 3px solid;
+}
+
+.border-knowledge-primary {
+    border-color: bootstrap.$primary;
+}
+
+.border-knowledge-danger {
+    border-color: bootstrap.$danger;
+}
+
+.border-knowledge-info {
+    border-color: bootstrap.$info;
+}
+
+.border-knowledge-warning {
+    border-color: bootstrap.$warning;
+}
+
+.glow {
+    transition: all 0.2s ease-in-out;
+}
+
+.glow:hover {
+    -webkit-box-shadow:0px 0px 21px 5px transparentize(afe.$primary, 0.5);
+    -moz-box-shadow: 0px 0px 21px 5px transparentize(afe.$primary, 0.5);
+    box-shadow: 0px 0px 21px 5px transparentize(afe.$primary, 0.5);
+    transform: scale(1.05, 1.05);
+}
+
+.slideIn {
+    animation-name: slideIn;
+    animation-duration: 2s;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: afe.$secondary;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: afe.$primary-pastel;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: darker(afe.$primary-pastel, 10%);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: darker(afe.$primary-pastel, 20%);
+}
+
+* {
+    scrollbar-color: afe.$primary-pastel afe.$secondary;
+    scrollbar-width: 10px;
+}
+
+@keyframes slideIn {
+    0% {
+        left: -50px;
+        opacity: 0;
+    }
+    100% {
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes glowPrimary {
+    0% {
+        box-shadow: 0px 0px 0px 0px afe.$primary;
+    }
+    100% {
+        box-shadow: 0px 0px 35px 10px afe.$primary;
+    }
+}
+
+@keyframes glowDanger {
+    0% {
+        box-shadow: 0px 0px 0px 0px bootstrap.$danger;
+    }
+    100% {
+        box-shadow: 0px 0px 35px 10px bootstrap.$danger;
+    }
+}
+
+@keyframes glowWarning {
+    0% {
+        box-shadow: 0px 0px 0px 0px bootstrap.$warning;
+    }
+    100% {
+        box-shadow: 0px 0px 35px 10px bootstrap.$warning;
+    }
+}
