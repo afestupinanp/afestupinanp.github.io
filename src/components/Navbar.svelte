@@ -49,25 +49,7 @@
                     <a class="nav-link" use:link={{'href': '/about'}}>{$_('navbar.about')}</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown">{$_('navbar.projects')}</a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a class="dropdown-item" use:link={{'href': '/experience'}}>{$_('experience.title')}</a>
-                        </li>
-                        <li class="dropdown-divider"></li>
-                        <li>
-                            <a class="dropdown-item" use:link={{'href': '/projects/sipac'}}>{$_('projects.sipac.title')}</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" use:link={{'href': '/projects/apps'}}>{$_('projects.apps.title')}</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" use:link={{'href': '/projects/ssmanager'}}>{$_('projects.ssmanager.title')}</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" use:link={{'href': '/projects/others'}}>{$_('projects.others')}</a>
-                        </li>
-                    </ul>
+                    <a class="nav-link" use:link={{'href': '/projects'}}>{$_('navbar.projects')}</a>
                 </li>
             </ul>
             

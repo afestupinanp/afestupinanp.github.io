@@ -10,7 +10,9 @@ export const baseRouteData: Object = {
 export default {
     '/': wrap(Object.assign(baseRouteData, {'asyncComponent': () => import('./pages/Home.svelte')})),
     '/about': wrap(Object.assign(baseRouteData, {'asyncComponent': () => import('./pages/About.svelte')})),
-    '/experience': wrap(Object.assign(baseRouteData, {'asyncComponent': () => import('./pages/Experience.svelte')})),
+    '/projects': wrap(Object.assign(baseRouteData, {'asyncComponent': () => import('./pages/Projects.svelte')})),
     '/projects/sipac': wrap(Object.assign(baseRouteData, {'asyncComponent': () => import('./pages/Projects/Sipac.svelte')})),
+    '/projects/apps': wrap(Object.assign(baseRouteData, {'asyncComponent': () => import('./pages/Projects/Apps.svelte')})),
+    '/projects/ssmanager': wrap(Object.assign(baseRouteData, {'asyncComponent': () => import('./pages/Projects/SSManager.svelte')})),
     '*': NotFound
 }

@@ -1,0 +1,29 @@
+[
+    {
+        "title": "projects.sipac.title",
+        "icon": "../assets/images/sipacLogo.png?url",
+        "description": "projects.sipac.description-full",
+        "summary": "projects.sipac.description",
+        "url": "/projects/sipac",
+        "repoPage": null,
+        "pageUrl": null
+    },
+    {
+        "title": "projects.apps.title",
+        "icon": "../assets/images/appsLogo.png?url",
+        "description": "projects.apps.description-full",
+        "summary": "projects.apps.description",
+        "url": "/projects/apps",
+        "repoPage": null,
+        "pageUrl": null
+    },
+    {
+        "title": "projects.ssmanager.title",
+        "icon": "../assets/images/ssmanagerLogo.png?url",
+        "description": "projects.ssmanager.description-full",
+        "summary": "projects.ssmanager.description",
+        "url": "/projects/ssmanager",
+        "repoPage": null,
+        "pageUrl": null
+    }
+]
