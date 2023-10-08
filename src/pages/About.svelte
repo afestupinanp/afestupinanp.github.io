@@ -1,5 +1,5 @@
 <script>
-    import { _ } from 'svelte-i18n';
+    import { _, json } from 'svelte-i18n';
     import me from '@img/me.jpeg?url';
     import AboutSection from './About/AboutSection.svelte';
     import AboutBadge from './About/AboutBadge.svelte';
@@ -13,8 +13,8 @@
         difference = difference - 1;
     }
 
-    $: experiences = $_('about.experiences');
-    $: academics = $_('about.academics');
+    $: experiences = $json('about.experiences');
+    $: academics = $json('about.academics');
 </script>
 
 <div class="row slideUp position-relative top-padding-fix page-padding">

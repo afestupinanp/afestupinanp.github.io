@@ -36,7 +36,7 @@
 </div>
 <div class="row page-padding">
     <div class="col-12">
-        <HeaderSection color="primary" icon="fa-solid fa-computer" text={$_('home.sections.my-knowledge')}  />
+        <HeaderSection icon="fa-solid fa-computer" text={$_('home.sections.my-knowledge')}  />
     </div>
     <div class="col-12">
         <div class="position-relative slideUp row">
@@ -47,7 +47,7 @@
         </div>
     </div>
     <div class="col-12">
-        <HeaderSection color="primary" icon="fa-solid fa-briefcase" text={$_('home.sections.stand-out-projects')}  />
+        <HeaderSection icon="fa-solid fa-briefcase" text={$_('home.sections.stand-out-projects')}  />
     </div>
     <StandOutProject type="2" image={sipacImage} title={$_('projects.sipac.title')} description={$_('projects.sipac.description')} url="https://sipac2.usc.edu.co" />
     <StandOutProject type="2" image={appsImage} title={$_('projects.apps.title')} description={$_('projects.apps.description')} url="https://apps.usc.edu.co" />
