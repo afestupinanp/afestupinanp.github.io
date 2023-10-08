@@ -1,5 +1,6 @@
 import { svelte } from "@sveltejs/vite-plugin-svelte";
 import { defineConfig } from "vite";
+import {fileURLToPath} from 'node:url';
 
 export default defineConfig({
     'root': './src',
@@ -13,5 +14,13 @@ export default defineConfig({
     },
     'plugins': [
         svelte()
-    ]
+    ],
+    'resolve': {
+        'alias': [
+            {
+                'find': '@img',
+                'replacement': fileURLToPath(new URL('./src/assets/images', import.meta.url))
+            }
+        ]
+    }
 });

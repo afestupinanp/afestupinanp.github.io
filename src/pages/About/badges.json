@@ -83,5 +83,10 @@
         "color": "danger",
         "name": "Lua",
         "icon": "fa-solid fa-code"
+    },
+    {
+        "color": "warning",
+        "name": "Svelte.js",
+        "icon": "fa-solid fa-code"
     }
 ]

@@ -27,7 +27,7 @@
 </script>
 
 <Navbar />
-<div class="container-fluid d-flex flex-column min-vh-100" style="padding-top: 80px;">
+<div class="container-fluid bg-body d-flex flex-column min-vh-100">
     <Router on:routeLoaded={() => Helpers.setActiveUrl()} {routes} />
 </div>
 <Footer />

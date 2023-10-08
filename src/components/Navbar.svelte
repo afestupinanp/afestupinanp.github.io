@@ -22,7 +22,7 @@
     });
 </script>
 
-<nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary non-selectable">
+<nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary shadow non-selectable">
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#pageNavbar" aria-controls="pageNavbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,11 +33,11 @@
                     <a class="fs-4 mx-2" target="_blank" rel="noreferrer noopener" href="https://github.com/afestupinanp">
                         <i class="fa-brands fa-github"></i>
                     </a>
-                    <a class="fs-4 mx-2" target="_blank" rel="noreferrer noopener" href="https://twitter.com/andrespelaez00">
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </a>
                     <a class="fs-4 mx-2" target="_blank" rel="noreferrer noopener" href="https://linkedin.com/in/andrespelaez00">
                         <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a class="fs-4 mx-2" target="_blank" rel="noreferrer noopener" href="https://twitter.com/andrespelaez00">
+                        <i class="fa-brands fa-x-twitter"></i>
                     </a>
                 </span>
             </div>
@@ -45,11 +45,11 @@
                 <li class="nav-item">
                     <a class="nav-link" aria-current="page" use:link={{'href': '/'}}>{$_('navbar.home')}</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" use:link={{'href': '/about'}}>{$_('navbar.about')}</a>
-                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link" use:link={{'href': '/projects'}}>{$_('navbar.projects')}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" use:link={{'href': '/about'}}>{$_('navbar.about')}</a>
                 </li>
             </ul>
             

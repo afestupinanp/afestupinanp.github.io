@@ -1,14 +1,14 @@
 {
     "navbar": {
         "home": "Inicio",
-        "about": "Acerca de mí",
-        "projects": "Proyectos y experiencia",
+        "about": "Acerca de mí y experiencia",
+        "projects": "Proyectos",
         "dark-theme": "Tema oscuro",
         "language": "Idioma"
     },
     "home": {
-        "welcoming": "¡Hola mundo!",
-        "my-name": "Mi nombre es Andrés Peláez",
+        "welcoming": "Andrés Felipe Estupiñán Peláez",
+        "my-name": "Desarrollador de software full stack",
         "title": "Inicio",
         "sections": {
             "my-knowledge": "Mis conocimientos y habilidades",
@@ -18,7 +18,7 @@
             "full-stack": "Desarrollador full stack",
             "full-stack-description": "Conocimiento en lenguajes de programación JavaScript/TypeScript, Java, PHP, C# y Python",
             "bilingual": "Desarrollador 100% bilingue",
-            "bilingual-description": "Habilidades de escritura, lectura y conversacionales de nivel C, nativo de Colombia",
+            "bilingual-description": "Habilidades de escritura, lectura y conversacionales de nivel C",
             "experience-time": "4 años de experiencia",
             "experience-time-description": "Tengo 4 años de experiencia en el mundo profesional del desarrollo de software",
             "cicd": "Familiarizado con CI/CD",
@@ -46,8 +46,43 @@
     "about": {
         "title": "¡Acerca de mí!",
         "myself": "Yo y cómo inicié con la programación",
-        "myself-description": "¡Un gusto! Mi nombre es Andrés Felipe Estupiñán Peláez. Soy un desarrollador de software de {years} años nacido en la ciudad de Santiago de Cali, Colombia. Mi interés por el desarrollo de software viene desde los 10 años, aunque no comencé a programar hasta que tenía 14 años.<br/><br/>Mi historia con la programación comenzó con el SA-MP, un mod multijugador para GTA San Andreas. Comencé a desarrollar un modo de juego usando el lenguaje de scripting llamado Pawn y lo compartía con mis amigos de clase.<br/><br/>También comencé a aprender sobre Visual Basic, luego con Java y C#, luego PHP y Python, y luego Lua.<br/><br/>Estudié en el Servicio Nacional de Aprendizaje, y, eventualmente en 2019, conseguí mi primer trabajo en la Universidad Santiago de Cali como desarrollador de software, actualmente sigo allí, ahora como lider de equipo de desarrollo, al mismo tiempo que estudiar la carrera de ingeniería de sistemas en la Universidad Nacional Abierta y a Distancia.<br/><br/>Apasionado de la tecnología, respetuoso, amigable y amable, trabajo en equipo y siempre con buena disposición para aprender. Adquiero conocimientos rapidamente y me adapto fácil a las situaciones.",
-        "abilities": "Habilidades y conocimientos"
+        "myself-description": "¡Un gusto! Mi nombre es Andrés Felipe Estupiñán Peláez. Soy un desarrollador de software de {years} años nacido en la ciudad de Santiago de Cali, Colombia. Mi interés por el desarrollo de software viene desde los 10 años, aunque no comencé a programar hasta que tenía 14 años.<br/><br/>Mi historia con la programación comenzó con el SA-MP, un mod multijugador para GTA San Andreas. Comencé a desarrollar un modo de juego usando el lenguaje de scripting llamado Pawn y lo compartía con mis amigos de clase.<br/><br/>También comencé a aprender sobre Visual Basic, luego con Java y C#, luego PHP y Python, y luego Lua.<br/><br/>Estudié en el Servicio Nacional de Aprendizaje, y, eventualmente en 2019, conseguí mi primer trabajo en la Universidad Santiago de Cali como desarrollador de software, actualmente sigo allí, ahora como lider de equipo de desarrollo, al mismo tiempo que estudié la carrera de ingeniería de sistemas en la Universidad Nacional Abierta y a Distancia.<br/><br/>Apasionado de la tecnología, respetuoso, amistoso y amable, buen trabajo en equipo y siempre con buena disposición para aprender son cualidades que me caracterizan. Adquiero conocimientos rapidamente y me adapto fácil a las situaciones que se presenten.",
+        "abilities": "Habilidades y conocimientos",
+        "experience": "Experiencia Laboral",
+        "experiences": [
+            {
+                "title": "Universidad Santiago de Cali",
+                "position": "Ingeniero de desarrollo",
+                "time": "Junio 2022 - Actualidad",
+                "description": "Como ingeniero de desarrollo, mis labores corresponden en el liderazgo del equipo de desarrollo de software de la Universidad de hasta 7 personas. Atiendo reuniones, realizo capacitaciones, y delego responsabilidades y superviso la ejecución de las actividades. Gestiono los servidores de los aplicativos desarrollados por el equipo, mantengo el servidor de GitLab y las imágenes de Docker existentes, así como codificar ciertos elementos."
+            },
+            {
+                "title": "Universidad Santiago de Cali",
+                "position": "Desarrollador de software",
+                "time": "Febrero 2020 - Junio 2022",
+                "description": "Como desarrollador de software, me encargué de traducir los requerimientos solicitados por el ingeniero de desarrollo para crear módulos y soluciones eficientes y de alta calidad."
+            },
+            {
+                "title": "Universidad Santiago de Cali",
+                "position": "Aprendiz SENA",
+                "time": "Junio 2019 - Diciembre 2019",
+                "description": "Como aprendiz SENA, me capacité en el framework Laravel y las herramientas necesarias para realizar mis labores. Mis labores fueron escribir código eficiente y óptimo para brindar soluciones a los requerimientos solicitados por el ingeniero de desarrollo."
+            }
+        ],
+        "academic": "Títulos académicos",
+        "academics": [
+            {
+                "title": "Ingeniero de sistemas",
+                "time": "Marzo 2020 - Actualidad",
+                "location": "Universidad Nacional Abierta y a Distancia"
+            },
+            {
+                "title": "Tecnólogo en Análisis y Desarrollo de Sistemas de Información",
+                "time": "Diciembre 2017 - Diciembre 2019",
+                "location": "Servicio Nacional de Aprendizaje SENA"
+            }
+        ]
     },
-    "not-found": "La página que buscabas no ha sido encontrada."
+    "not-found": "La página que buscabas no ha sido encontrada.",
+    "soon": "Esta página está siendo construida y será cargada pronto."
 }

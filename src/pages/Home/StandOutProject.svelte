@@ -18,7 +18,7 @@
             &nbsp;
         </div>
         <div class="col-12 col-lg-5 order-2 {orderDescription}">
-            <h4>{title}</h4>
+            <h4 class="py-3">{title}</h4>
             <p>{description}</p>
             <div class="text-right">
                 {#if url}
