@@ -24,7 +24,7 @@
                         <img src={me} class="img-fluid shadow rounded-circle" width="200" height="200" alt="" />
                     </div>
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 text-center text-lg-left mt-4 mt-lg-0">
                     <div class="position-relative slideUp">
                         <h1>{$_('home.welcoming')}</h1>
                         <h3>{$_('home.my-name')}</h3>

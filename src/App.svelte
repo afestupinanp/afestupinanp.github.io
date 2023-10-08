@@ -24,10 +24,16 @@
         'fallbackLocale': 'en',
         'initialLocale': window?.localStorage?.getItem('locale') ?? 'es'
     });
+
+    const onPageChange = () => {
+        Helpers.setActiveUrl();
+        window.scrollTo(0,0);
+    }
+
 </script>
 
 <Navbar />
 <div class="container-fluid bg-body d-flex flex-column min-vh-100">
-    <Router on:routeLoaded={() => Helpers.setActiveUrl()} {routes} />
+    <Router on:routeLoaded={onPageChange} {routes} />
 </div>
 <Footer />
