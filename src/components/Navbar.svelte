@@ -1,7 +1,7 @@
 <script>
     import { link } from "svelte-spa-router";
-    import Check from "./Check.svelte";
-    import Helpers from "../helpers";
+    import Check from "@src/components/Check.svelte";
+    import Helpers from "@src/helpers";
     import { _, locale } from "svelte-i18n";
     import { onDestroy, onMount } from "svelte";
 

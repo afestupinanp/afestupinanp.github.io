@@ -1,8 +1,7 @@
 <script>
     import { _ } from 'svelte-i18n';
 
-    import appsUrl from '../../assets/images/appsLogo.png?url';
-
+    import appsUrl from '@img/appsLogo.png?url';
 </script>
 
 <div class="row">

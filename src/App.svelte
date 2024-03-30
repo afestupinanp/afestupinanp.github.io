@@ -1,15 +1,16 @@
 <script>
     import Router from 'svelte-spa-router';
-    import routes from './routes';
-    import Navbar from './components/Navbar.svelte';
-    import Footer from './components/Footer.svelte';
-    import Helpers from './helpers';
+    import routes from '@src/routes';
+    import Navbar from '@src/components/Navbar.svelte';
+    import Footer from '@src/components/Footer.svelte';
+    import Helpers from '@src/helpers';
     import { addMessages, init } from 'svelte-i18n';
 
-    import es from './lang/es.json';
-    import en from './lang/en.json';
+    import es from '@lang/es.json';
+    import en from '@lang/en.json';
 
     export const ssr = false;
+    export const fallbackLocale = 'en';
 
     // load messages
     addMessages('es', es);
@@ -21,8 +22,8 @@
 
     // init i18n
     init({
-        'fallbackLocale': 'en',
-        'initialLocale': window?.localStorage?.getItem('locale') ?? 'es'
+        'fallbackLocale': fallbackLocale,
+        'initialLocale': window?.localStorage?.getItem('locale') ?? window.navigator.language
     });
 
     const onPageChange = () => {

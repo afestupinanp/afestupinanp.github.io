@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "target": "es2022",
+        "module": "commonjs",
+        "baseUrl": "./",
+        "paths": {
+            "@src/*": ["./*"],
+            "@lang/*": ["lang/*"],
+            "@img/*": ["assets/images/*"]
+        }
+    }
+}

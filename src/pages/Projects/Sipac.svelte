@@ -1,8 +1,6 @@
 <script>
     import { _ } from 'svelte-i18n';
-
-    import sipacUrl from '../../assets/images/sipacLogo.png?url';
-
+    import sipacUrl from '@img/sipacLogo.png?url';
 </script>
 
 <div class="row">

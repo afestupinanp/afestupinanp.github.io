@@ -7,10 +7,10 @@
     import ssmanagerImage from '@img/ssmanagerLogo.png?url';
     import me from '@img/me.jpeg?url';
 
-    import KnowledgeSection from "./Home/KnowledgeSection.svelte";
-    import StandOutProject from "./Home/StandOutProject.svelte";
+    import KnowledgeSection from "@src/pages/Home/KnowledgeSection.svelte";
+    import StandOutProject from "@src/pages/Home/StandOutProject.svelte";
     import { link } from "svelte-spa-router";
-    import HeaderSection from "./Home/HeaderSection.svelte";
+    import HeaderSection from "@src/pages/Home/HeaderSection.svelte";
 
     $: document.title = 'Andrés Peláez | ' + $_('home.title');
 </script>

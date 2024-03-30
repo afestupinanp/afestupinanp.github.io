@@ -1,15 +1,15 @@
 <script>
     import { _, json } from 'svelte-i18n';
     import me from '@img/me.jpeg?url';
-    import AboutSection from './About/AboutSection.svelte';
-    import AboutBadge from './About/AboutBadge.svelte';
+    import AboutSection from '@src/pages/About/AboutSection.svelte';
+    import AboutBadge from '@src/pages/About/AboutBadge.svelte';
 
-    import badges from './About/badges.json';
+    import badges from '@src/pages/About/badges.json';
 
     $: document.title = 'Andrés Peláez | ' + $_('about.title');
     const current = new Date();
     let difference = current.getFullYear() - 2000;
-    if (current.getMonth() < 7 && current.getDate() < 21) {
+    if (!(current.getMonth() < 6 && current.getDate() < 21)) {
         difference = difference - 1;
     }
 
@@ -42,6 +42,7 @@
                                 <div>
                                     <h4>{experience.title}</h4>
                                     <h6>{experience.time} | {experience.position}</h6>
+                                    <small><i>{experience.location}</i></small>
                                     <p class="py-3">{experience.description}</p>
                                 </div>
                             </li>

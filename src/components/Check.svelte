@@ -1,5 +1,5 @@
 <script>
-    import Helpers from '../helpers';
+    import Helpers from '@src/helpers';
     export let label = '';
     export let checked = false;
     export let disabled = false;

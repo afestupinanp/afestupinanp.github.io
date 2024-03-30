@@ -20,6 +20,14 @@ export default defineConfig({
             {
                 'find': '@img',
                 'replacement': fileURLToPath(new URL('./src/assets/images', import.meta.url))
+            },
+            {
+                'find': '@src',
+                'replacement': fileURLToPath(new URL('./src', import.meta.url))
+            },
+            {
+                'find': '@lang',
+                'replacement': fileURLToPath(new URL('./src/lang', import.meta.url))
             }
         ]
     }

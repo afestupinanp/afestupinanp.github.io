@@ -46,27 +46,37 @@
     "about": {
         "title": "About me!",
         "myself": "Me and how I started programming",
-        "myself-description": "A pleasure to meet you! My name is Andrés Felipe Estupiñán Peláez. I am a {years} years old software developer born in the city of Santiago de Cali, Colombia. My interest in software development started since I was 10, but I never really started programming until I was 14 years old.<br/><br/>My story with programming started with SA-MP, a multiplayer mod for GTA San Andreas. I started developing a gamemode using the Pawn scripting language and I shared the server with my class friends.<br/><br/>I also started learning about Visual Basic, then Java and C#, then PHP and Python, and then Lua.<br/><br/>I studied in the National Learning Service (SENA) and, eventually in 2019, I got my first job in the Santiago de Cali University as a software developer, currently still there, now as a team leader. At the same time, I was studying systems engineering in the National Open and Distance University (UNAD).<br/><br/>Passionate of tech, respectful, friendly and kind, work well in a team and always with good disposition to learn something new. I take in knowledge quickly and adapt fast to many situations.",
+        "myself-description": "A pleasure to meet you! My name is Andrés Felipe Estupiñán Peláez. I am a {years} years old software developer born in the city of Santiago de Cali, Colombia. My interest in software development started since I was 10, but I never really started programming until I was 14 years old.<br/><br/>My story with programming started with SA-MP, a multiplayer mod for GTA San Andreas. I started developing a gamemode using the Pawn scripting language and I shared the server with my class friends.<br/><br/>I also started learning about Visual Basic, then Java and C#, then PHP and Python, and then Lua.<br/><br/>I studied in the National Learning Service (SENA) and, eventually in 2019, I got my first job in the Santiago de Cali University as a software developer. At the same time, I was studying systems engineering in the National Open and Distance University (UNAD).<br/><br/>Passionate of tech, respectful, friendly and kind, work well in a team and always with good disposition to learn something new. I take in knowledge quickly and adapt fast to many situations.",
         "abilities": "Abilities and knowledge",
         "experience": "Working Experience",
         "experiences": [
             {
+                "title": "Priverion",
+                "position": "Lead Software Engineer",
+                "time": "January 2024 - Current",
+                "description": "As the Lead Software Engineer, my tasks are related to leading a team of engineers in order to improve and add new functionalities to the Priverion Platform. My responsibilities go from attending meetings to gather requirements, design and plan features and sprints, do code reviews and give technical advices to the team.",
+                "location": "Switzerland, remote"
+            },
+            {
                 "title": "Universidad Santiago de Cali",
                 "position": "Development engineer",
-                "time": "June 2022 - Current",
-                "description": "As a development engineer, my assignments are leading the software development team of the University, up to 7 people. I attend meetings, make trainings, delegate responsabilities and supervise the execution of all the activities. I manage the application servers used by the team, as well as maintain the GitLab server instance and the existing Docker images, as well as code certain elements."
+                "time": "June 2022 - December 2023",
+                "description": "As a development engineer, my assignments are leading the software development team of the University, up to 7 people. I attend meetings, make trainings, delegate responsabilities and supervise the execution of all the activities. I manage the application servers used by the team, as well as maintain the GitLab server instance and the existing Docker images, as well as code certain elements.",
+                "location": "Cali, Colombia. In office"
             },
             {
                 "title": "Universidad Santiago de Cali",
                 "position": "Software developer",
                 "time": "February 2020 - June 2022",
-                "description": "As a software developer, I translated the requirements made by the development engineer to create modules and high quality, efficient solutions."
+                "description": "As a software developer, I translated the requirements made by the development engineer to create modules and high quality, efficient solutions.",
+                "location": "Cali, Colombia. In office"
             },
             {
                 "title": "Universidad Santiago de Cali",
                 "position": "SENA Apprentice",
                 "time": "June 2019 - December 2019",
-                "description": "As a SENA apprentice, I trained myself with the Laravel framework and the necessary tools to do my job. My job was writing efficient and optimal code to bring solutions to the requirements requested by the development engineer."
+                "description": "As a SENA apprentice, I trained myself with the Laravel framework and the necessary tools to do my job. My job was writing efficient and optimal code to bring solutions to the requirements requested by the development engineer.",
+                "location": "Cali, Colombia. In office"
             }
         ],
         "academic": "Academic titles",

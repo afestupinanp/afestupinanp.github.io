@@ -1,6 +1,6 @@
 <script>
     import { _ } from "svelte-i18n";
-    import Helpers from "../../helpers";
+    import Helpers from "@src/helpers";
 
     export let icon;
     export let title;

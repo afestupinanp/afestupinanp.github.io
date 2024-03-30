@@ -1,7 +1,5 @@
 <script>
     import { _ } from "svelte-i18n";
-
-
 </script>
 
 <div class="row position-relative top-padding-fix page-padding slideUp">

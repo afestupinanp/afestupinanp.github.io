@@ -1,8 +1,6 @@
 <script>
     import { _ } from 'svelte-i18n';
-
-    import ssmanagerUrl from '../../assets/images/ssmanagerLogo.png?url';
-
+    import ssmanagerUrl from '@img/ssmanagerLogo.png?url';
 </script>
 
 <div class="row">
