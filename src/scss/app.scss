@@ -80,7 +80,7 @@
     padding-right: afe.$page-padding;
 }
 
-.top-padding-fix {
+.top-padding {
     padding-top: afe.$page-top-padding;
 }
 
@@ -89,41 +89,6 @@
     background-size: cover;
     background-position: center;
     height: 450px;
-}
-
-ul.timeline {
-    list-style: none;
-}
-
-ul.timeline li {
-    position: relative;
-}
-
-ul.timeline li div {
-    position: relative;
-    left: 0.5rem;
-}
-
-ul.timeline li:before {
-    content: '';
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background: afe.$primary;
-    position: absolute;
-    left: -15px;
-    top: 50%;
-    transform: translateY(-40%);
-  }
-  
-ul.timeline li:not(:last-child):after {
-    content: '';
-    width: 2px;
-    height: 100%;
-    background: afe.$primary-pastel;
-    position: absolute;
-    left: -8px;
-    top: 50%;
 }
 
 @media screen and (max-width: 800px) {
@@ -138,7 +103,7 @@ ul.timeline li:not(:last-child):after {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: afe.$secondary;
+    background-color: bootstrap.$body-bg-dark;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -154,7 +119,7 @@ ul.timeline li:not(:last-child):after {
 }
 
 * {
-    scrollbar-color: afe.$primary-pastel afe.$secondary;
+    scrollbar-color: afe.$primary-pastel bootstrap.$body-bg-dark;
     scrollbar-width: 10px;
 }
 

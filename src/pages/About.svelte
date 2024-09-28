@@ -6,10 +6,10 @@
 
     import badges from '@src/pages/About/badges.json';
 
-    $: document.title = 'Andrés Peláez | ' + $_('about.title');
+    $: document.title = 'Andrés Peláez - ' + $_('about.title');
     const current = new Date();
     let difference = current.getFullYear() - 2000;
-    if (!(current.getMonth() < 6 && current.getDate() < 21)) {
+    if (current.getMonth() < 6) {
         difference = difference - 1;
     }
 
@@ -17,10 +17,10 @@
     $: academics = $json('about.academics');
 </script>
 
-<div class="row slideUp position-relative top-padding-fix page-padding">
+<div class="row slideUp position-relative top-padding page-padding">
     <div class="col-12 col-lg-5">
         <div class="text-center">
-            <img src="{me}" class="img-fluid shadow rounded-circle" width="400" height="400" alt="" />
+            <img src="{me}" class="img-fluid shadow rounded-circle" width="400" height="400" alt="Andrés Felipe Estupiñán Peláez" />
             <h2 class="py-4">{$_('about.title')}</h2>
         </div>
         <p class="text-left">{@html $_('about.myself-description', {values: {'years': difference}})}</p>
@@ -37,7 +37,7 @@
             <div slot="content">
                 {#if Array.isArray(experiences) && experiences.length}
                     <ul class="timeline">
-                        {#each experiences as experience}
+                        {#each experiences as experience, index (index)}
                             <li class="py-3">
                                 <div>
                                     <h4>{experience.title}</h4>
@@ -55,7 +55,7 @@
             <div slot="content">
                 {#if Array.isArray(academics) && academics.length}
                     <ul class="timeline">
-                        {#each academics as academic}
+                        {#each academics as academic, index (index)}
                             <li class="py-3">
                                 <div>
                                     <h4>{academic.title}</h4>

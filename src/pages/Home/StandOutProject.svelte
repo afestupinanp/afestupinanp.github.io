@@ -5,11 +5,11 @@
     export let title;
     export let description;
     export let url = '';
-    export let type;
+    export let order;
     export let repoUrl = '';
 
-    const orderImage = type == 1 ? 'order-lg-1' : 'order-lg-2';
-    const orderDescription = type == 1 ? 'order-lg-2' : 'order-lg-1';
+    const orderImage = order == 1 ? 'order-lg-1' : 'order-lg-2';
+    const orderDescription = order == 1 ? 'order-lg-2' : 'order-lg-1';
 </script>
 
 <div class="col-12 py-4">
@@ -22,13 +22,13 @@
             <p>{description}</p>
             <div class="text-right">
                 {#if url}
-                    <a class="btn btn-info btn-block" href={url} target="_blank" rel="noreferrer noopener">
+                    <a class="btn btn-primary btn-block" href={url} target="_blank" rel="noreferrer noopener">
                         <i class="fa-solid fa-up-right-from-square"></i>
                         {$_('projects.visit-page')}
                     </a>
                 {/if}
                 {#if repoUrl}
-                    <a class="btn btn-info btn-block" href={repoUrl} target="_blank" rel="noreferrer noopener">
+                    <a class="btn btn-primary btn-block" href={repoUrl} target="_blank" rel="noreferrer noopener">
                         <i class="fa-solid fa-code-branch"></i>
                         {$_('projects.code-repo')}
                     </a>

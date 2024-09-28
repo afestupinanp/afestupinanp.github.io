@@ -16,6 +16,8 @@
     addMessages('es', es);
     addMessages('en', en);
 
+    const userLanguage = window.navigator.language?.slice(0, window.navigator.language?.indexOf('-'));
+
     // detect dark theme
     const darkTheme = Helpers.detectDarkThemePreferred();
     Helpers.setDarkTheme(darkTheme);
@@ -23,7 +25,7 @@
     // init i18n
     init({
         'fallbackLocale': fallbackLocale,
-        'initialLocale': window?.localStorage?.getItem('locale') ?? window.navigator.language
+        'initialLocale': window?.localStorage?.getItem('locale') ?? userLanguage
     });
 
     const onPageChange = () => {
