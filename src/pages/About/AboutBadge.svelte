@@ -1,7 +1,5 @@
 <script>
-    export let icon;
-    export let name;
-    export let color;
+    let { icon, name, color } = $props();
 </script>
 
 <h4 class="d-inline-block mx-2">

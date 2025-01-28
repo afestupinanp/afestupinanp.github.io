@@ -1,11 +1,12 @@
 <script>
     import { _ } from "svelte-i18n";
 
-    export let borderClass;
-    export let iconClass;
-
-    export let header;
-    export let description;
+    let {
+        borderClass,
+        iconClass,
+        header,
+        description
+    } = $props();
 </script>
 
 <div class="col-10 col-sm-5 offset-1 offset-lg-0 col-lg-3 my-3">

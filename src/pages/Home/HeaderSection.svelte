@@ -1,6 +1,5 @@
 <script>
-    export let text;
-    export let icon;
+    let { text, icon } = $props();
 </script>
 
 <div class="position-relative slideIn p-2 my-3">

@@ -1,12 +1,25 @@
 <script>
     import { _ } from "svelte-i18n";
 
-    export let image;
-    export let title;
-    export let description;
-    export let url = '';
-    export let order;
-    export let repoUrl = '';
+    /**
+     * @typedef {Object} Props
+     * @property {any} image
+     * @property {any} title
+     * @property {any} description
+     * @property {string} [url]
+     * @property {any} order
+     * @property {string} [repoUrl]
+     */
+
+    /** @type {Props} */
+    let {
+        image,
+        title,
+        description,
+        url = '',
+        order,
+        repoUrl = ''
+    } = $props();
 
     const orderImage = order == 1 ? 'order-lg-1' : 'order-lg-2';
     const orderDescription = order == 1 ? 'order-lg-2' : 'order-lg-1';

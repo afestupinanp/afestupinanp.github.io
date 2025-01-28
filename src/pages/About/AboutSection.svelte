@@ -2,10 +2,23 @@
     import { _ } from "svelte-i18n";
     import Helpers from "@src/helpers";
 
-    export let icon;
-    export let title;
-    export let description = '';
-    export let collapseState = 'show';
+    /**
+     * @typedef {Object} Props
+     * @property {any} icon
+     * @property {any} title
+     * @property {string} [description]
+     * @property {string} [collapseState]
+     * @property {import('svelte').Snippet} [content]
+     */
+
+    /** @type {Props} */
+    let {
+        icon,
+        title,
+        description = '',
+        collapseState = 'show',
+        content
+    } = $props();
     
     const sectionId = Helpers.randomString();
 </script>
@@ -18,6 +31,6 @@
     <hr/>
     <div class="collapse {collapseState}" id="{sectionId}">
         {@html description}
-        <slot name="content"></slot>
+        {@render content?.()}
     </div>
 </section>

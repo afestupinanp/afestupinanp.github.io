@@ -9,10 +9,11 @@
 
     import KnowledgeCard from "@src/pages/Home/KnowledgeCard.svelte";
     import StandOutProject from "@src/pages/Home/StandOutProject.svelte";
-    import { link } from "svelte-spa-router";
     import HeaderSection from "@src/pages/Home/HeaderSection.svelte";
 
-    $: document.title = 'Andrés Peláez - ' + $_('home.title');
+    $effect.pre(() => {
+        document.title = 'Andrés Peláez - ' + $_('home.title');
+    });
 </script>
 
 <div class="row">
