@@ -2,19 +2,11 @@
     import { _, json } from 'svelte-i18n';
     import me from '@img/me.jpeg?url';
     import AboutSection from '@src/pages/About/AboutSection.svelte';
-    import AboutBadge from '@src/pages/About/AboutBadge.svelte';
-
-    import badges from '@src/pages/About/badges.json';
+    import TabbedAboutSection from './About/TabbedAboutSection.svelte';
 
     $effect.pre(() => {
         document.title = 'Andrés Peláez - ' + $_('about.title');
     });
-
-    const current = new Date();
-    let difference = $state(current.getFullYear() - 2000);
-    if (current.getMonth() < 6) {
-        difference--;
-    }
 
     let experiences = $derived($json('about.experiences'));
     let academics = $derived($json('about.academics'));
@@ -24,20 +16,20 @@
     <div class="col-12 col-lg-5">
         <div class="text-center">
             <img src="{me}" class="img-fluid shadow rounded-circle" width="400" height="400" alt="Andrés Felipe Estupiñán Peláez" />
-            <h2 class="py-4">{$_('about.title')}</h2>
         </div>
-        <p class="text-left">{@html $_('about.myself-description', {values: {'years': difference}})}</p>
-    </div>
-    <div class="col-12 col-lg-7">
-        <AboutSection icon="fa-solid fa-hammer" title={$_('about.abilities')}>
+        <TabbedAboutSection></TabbedAboutSection>
+        <!-- <AboutSection icon="fa-solid fa-hammer" title={$_('about.abilities')}>
             {#snippet content()}
-                <span >
-                    {#each badges as badgeInfo}
-                        <AboutBadge color={badgeInfo.color} icon={badgeInfo.icon} name={badgeInfo.name} />
-                    {/each}
-                </span>
+                
             {/snippet}
         </AboutSection>
+        <AboutSection icon="fa-solid fa-user" title={$_('about.title')}>
+            {#snippet content()}
+                <p class="text-left">{@html $_('about.myself-description', {values: {'years': difference}})}</p>
+            {/snippet}
+        </AboutSection> -->
+    </div>
+    <div class="col-12 col-lg-7">
         <AboutSection icon="fa-solid fa-user-circle" title={$_('about.experience')}>
             {#snippet content()}
                 <div >

@@ -41,6 +41,9 @@
                 <li class="nav-item">
                     <a class="nav-link" use:link={{'href': '/about'}}>{$_('navbar.about')}</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mailto:andres.pelaez00@hotmail.com?Subject=Interesado%20en%20hablar%20-%20via%20web">{$_('navbar.contact-me')}</a>
+                </li>
             </ul>
             
             <div class="d-flex">

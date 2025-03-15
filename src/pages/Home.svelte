@@ -5,6 +5,8 @@
     import sipacImage from '@img/sipacLogo.png?url';
     import appsImage from '@img/appsLogo.png?url';
     import ssmanagerImage from '@img/ssmanagerLogo.png?url';
+    import priverionPlatformImage from '@img/priverionplatform.jpg?url'
+
     import me from '@img/me.jpeg?url';
 
     import KnowledgeCard from "@src/pages/Home/KnowledgeCard.svelte";
@@ -50,6 +52,7 @@
     <div class="col-12">
         <HeaderSection icon="fa-solid fa-briefcase" text={$_('home.sections.stand-out-projects')}  />
     </div>
+    <StandOutProject order="1" image={priverionPlatformImage} title={$_('projects.priverionplatform.title')} description={$_('projects.priverionplatform.description')} url="https://priverion.com/en/platform/" />
     <StandOutProject order="1" image={sipacImage} title={$_('projects.sipac.title')} description={$_('projects.sipac.description')} url="https://sipac2.usc.edu.co" />
     <StandOutProject order="1" image={appsImage} title={$_('projects.apps.title')} description={$_('projects.apps.description')} url="https://apps.usc.edu.co" />
     <StandOutProject order="1" image={ssmanagerImage} title={$_('projects.ssmanager.title')} description={$_('projects.ssmanager.description')} repoUrl="https://github.com/afestupinanp/ssmanager" />

@@ -88,5 +88,15 @@
         "color": "warning",
         "name": "Svelte.js",
         "icon": "fa-solid fa-code"
+    },
+    {
+        "color": "dark",
+        "name": "TailwindCSS",
+        "icon": "fa-solid fa-code"
+    },
+    {
+        "color": "info",
+        "name": "Go",
+        "icon": "fa-brands fa-golang"
     }
 ]

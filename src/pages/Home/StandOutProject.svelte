@@ -27,8 +27,10 @@
 
 <div class="col-12 py-4">
     <div class="position-relative row slideIn">
-        <div class="col-12 col-lg-7 order-1 {orderImage} text-center" style="background: url('{image}') no-repeat; background-size: cover; height: 300px;">
-            &nbsp;
+        <div class="col-12 col-lg-7 order-1 {orderImage} text-center overflow-hidden hover-zoom-shadow">
+            <div class="hover-zoom" style="background: url('{image}') no-repeat; background-size: cover; height: 300px;">
+                &nbsp;
+            </div>
         </div>
         <div class="col-12 col-lg-5 order-2 {orderDescription}">
             <h4 class="py-3">{title}</h4>

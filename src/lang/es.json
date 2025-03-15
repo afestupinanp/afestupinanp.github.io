@@ -4,7 +4,8 @@
         "about": "Acerca de mí y experiencia",
         "projects": "Proyectos",
         "dark-theme": "Tema oscuro",
-        "language": "Idioma"
+        "language": "Idioma",
+        "contact-me": "Contáctame"
     },
     "home": {
         "welcoming": "Andrés Felipe Estupiñán Peláez",
@@ -16,11 +17,11 @@
         },
         "icons": {
             "full-stack": "Desarrollador full stack",
-            "full-stack-description": "Conocimiento en lenguajes de programación JavaScript/TypeScript, Java, PHP, C# y Python",
+            "full-stack-description": "Conocimiento en lenguajes de programación JavaScript/TypeScript, Java, PHP, C#, Python, Lua y Go",
             "bilingual": "Desarrollador 100% bilingue",
-            "bilingual-description": "Habilidades de escritura, lectura y conversacionales de nivel C",
-            "experience-time": "4 años de experiencia",
-            "experience-time-description": "Tengo 4 años de experiencia en el mundo profesional del desarrollo de software",
+            "bilingual-description": "Habilidades de escritura, lectura y conversacionales de nivel C1 certificado por examen iTEP",
+            "experience-time": "5 años de experiencia",
+            "experience-time-description": "Tengo 5 años de experiencia en el mundo profesional del desarrollo de software",
             "cicd": "Familiarizado con CI/CD",
             "cicd-description": "Tengo experiencia trabajando con Docker, GitLab CI/CD y GitHub Actions para entregar nuevas funcionalidades a los clientes"
         }
@@ -30,6 +31,10 @@
         "visit-page": "Visitar página",
         "code-repo": "Ver repositorio de código",
         "see-all": "Ver todos los proyectos",
+        "priverionplatform": {
+            "title": "Plataforma de Priverion",
+            "description": "Lideré el desarrollo de nuevos módulos y correcciones para la Plataforma de Priverion. La Plataforma de Priverion permite administrar la información de seguridad y protección de datos para cumplir con estándares como ISO27001 2022 y GDPR."
+        },
         "sipac": {
             "title": "Sistema de Información Para el Aseguramiento de la Calidad (SIPAC)",
             "description": "Proyecto desarrollado en conjunto con el equipo de desarrollo de software de la Universidad Santigo de Cali. Trabajé y lideré en el desarrollo de múltiples módulos para este sistema, incluyendo: la automatización de la creación de los correos electrónicos en Google, y luego en Microsoft 365; Proyección de Nömina Docente, nueva versión de la plataforma de proyectos de la DGI, carnets digitales y mucho más. Nueva versión y antigua versión realizadas con Laravel."

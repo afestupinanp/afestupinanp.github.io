@@ -4,7 +4,8 @@
         "about": "About me and experience",
         "projects": "Projects",
         "dark-theme": "Dark theme",
-        "language": "Language"
+        "language": "Language",
+        "contact-me": "Contactame"
     },
     "home": {
         "welcoming": "Andrés Felipe Estupiñán Peláez",
@@ -16,11 +17,11 @@
         },
         "icons": {
             "full-stack": "Full stack software developer",
-            "full-stack-description": "Knowledge in the JavaScript/TypeScript, Java, PHP, C# and Python programming languages",
+            "full-stack-description": "Knowledge in the JavaScript/TypeScript, Java, PHP, C#, Python and Go programming languages",
             "bilingual": "100% Bilingual developer",
-            "bilingual-description": "Writing, reading and conversational abilities in C level",
-            "experience-time": "4 years of working experience",
-            "experience-time-description": "I have 4 years of working experience in the professional world of software development",
+            "bilingual-description": "Writing, reading and conversational abilities in C1 level, certified by iTEP exam",
+            "experience-time": "5 years of working experience",
+            "experience-time-description": "I have 5 years of working experience in the professional world of software development",
             "cicd": "Very familiar with CI/CD",
             "cicd-description": "I have experience working with Docker, GitLab CI/CD and GitHub Actions in order to deliver new features to customers"
         }
@@ -30,6 +31,10 @@
         "visit-page": "Visit website",
         "code-repo": "See code repository",
         "see-all": "See all the projects",
+        "priverionplatform": {
+            "title": "Priverion Platform",
+            "description": "I led the development of new modules and fixes for the Priverion Platform. The Priverion Platform allows to manage information security and data protection information to comply with standards such as ISO27001 2022 and GDPR."
+        },
         "sipac": {
             "title": "Sistema de Información Para el Aseguramiento de la Calidad (SIPAC)",
             "description": "Project developed with the software development team in the Santiago de Cali University. I worked and lead many of the modules for this system, including: the automating of the creation of the academic emails using Google, and then Microsoft; Teacher Payroll Projection, new version of the projects platform for the DGI, Digital IDs and much more. New version and old version made in Laravel."
