@@ -11,7 +11,7 @@
 
 </script>
 
-<ul class="nav nav-tabs d-flex w-100 mt-3" role="tablist">
+<ul class="nav nav-tabs d-flex flex-row w-100 mt-3" role="tablist">
     <li class="nav-item flex-fill" role="presentation">
         <button class="nav-link w-100 active" id="about-me-tab" data-bs-toggle="tab" data-bs-target="#about-me" type="button" role="tab" aria-controls="about-me" aria-selected="true">
             {$_('about.title')}

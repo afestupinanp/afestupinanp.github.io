@@ -1,23 +1,13 @@
 [
     {
-        "color": "warning",
-        "name": "GitLab CI/CD",
-        "icon": "fa-brands fa-gitlab"
+        "color": "dark",
+        "name": "Bootstrap",
+        "icon": "fa-brands fa-bootstrap"
     },
     {
         "color": "dark",
-        "name": "GitHub Actions",
-        "icon": "fa-brands fa-github"
-    },
-    {
-        "color": "danger",
-        "name": "Git",
-        "icon": "fa-brands fa-git"
-    },
-    {
-        "color": "info",
-        "name": "JavaScript/TypeScript",
-        "icon": "fa-brands fa-js"
+        "name": "C#",
+        "icon": "fa-brands fa-microsoft"
     },
     {
         "color": "danger",
@@ -30,24 +20,24 @@
         "icon": "fa-brands fa-docker"
     },
     {
-        "color": "dark",
-        "name": "php",
-        "icon": "fa-brands fa-php"
-    },
-    {
         "color": "danger",
-        "name": "Laravel",
-        "icon": "fa-brands fa-laravel"
+        "name": "Git",
+        "icon": "fa-brands fa-git"
+    },
+    {
+        "color": "warning",
+        "name": "GitLab CI/CD",
+        "icon": "fa-brands fa-gitlab"
     },
     {
         "color": "dark",
-        "name": "React (Native)",
-        "icon": "fa-brands fa-react"
+        "name": "GitHub Actions",
+        "icon": "fa-brands fa-github"
     },
     {
-        "color": "dark",
-        "name": "C#",
-        "icon": "fa-brands fa-microsoft"
+        "color": "info",
+        "name": "Go",
+        "icon": "fa-brands fa-golang"
     },
     {
         "color": "danger",
@@ -55,9 +45,9 @@
         "icon": "fa-brands fa-java"
     },
     {
-        "color": "success",
-        "name": "Vue.js",
-        "icon": "fa-brands fa-vuejs"
+        "color": "danger",
+        "name": "Laravel",
+        "icon": "fa-brands fa-laravel"
     },
     {
         "color": "warning",
@@ -65,9 +55,9 @@
         "icon": "fa-brands fa-linux"
     },
     {
-        "color": "info",
-        "name": "Python",
-        "icon": "fa-brands fa-python"
+        "color": "danger",
+        "name": "Lua",
+        "icon": "fa-solid fa-code"
     },
     {
         "color": "success",
@@ -76,13 +66,18 @@
     },
     {
         "color": "dark",
-        "name": "Bootstrap",
-        "icon": "fa-brands fa-bootstrap"
+        "name": "php",
+        "icon": "fa-brands fa-php"
     },
     {
-        "color": "danger",
-        "name": "Lua",
-        "icon": "fa-solid fa-code"
+        "color": "info",
+        "name": "Python",
+        "icon": "fa-brands fa-python"
+    },
+    {
+        "color": "dark",
+        "name": "React (Native)",
+        "icon": "fa-brands fa-react"
     },
     {
         "color": "warning",
@@ -90,13 +85,18 @@
         "icon": "fa-solid fa-code"
     },
     {
+        "color": "info",
+        "name": "TypeScript",
+        "icon": "fa-brands fa-js"
+    },
+    {
         "color": "dark",
         "name": "TailwindCSS",
         "icon": "fa-solid fa-code"
     },
     {
-        "color": "info",
-        "name": "Go",
-        "icon": "fa-brands fa-golang"
+        "color": "success",
+        "name": "Vue.js",
+        "icon": "fa-brands fa-vuejs"
     }
 ]

@@ -49,10 +49,10 @@
         }
     },
     "about": {
-        "title": "¡Acerca de mí!",
+        "title": "Acerca de",
         "myself": "Yo y cómo inicié con la programación",
         "myself-description": "¡Un gusto! Mi nombre es Andrés Felipe Estupiñán Peláez. Soy un desarrollador de software de {years} años nacido en la ciudad de Santiago de Cali, Colombia. Mi interés por el desarrollo de software viene desde los 10 años, aunque no comencé a programar hasta que tenía 14 años.<br/><br/>Mi historia con la programación comenzó con el SA-MP, un mod multijugador para GTA San Andreas. Comencé a desarrollar un modo de juego usando el lenguaje de scripting llamado Pawn y lo compartía con mis amigos de clase.<br/><br/>También comencé a aprender sobre Visual Basic, luego con Java y C#, luego PHP y Python, y luego Lua.<br/><br/>Estudié en el Servicio Nacional de Aprendizaje, y, eventualmente en 2019, conseguí mi primer trabajo en la Universidad Santiago de Cali como desarrollador de software, al mismo tiempo que estudié la carrera de ingeniería de sistemas en la Universidad Nacional Abierta y a Distancia.<br/><br/>Apasionado de la tecnología, respetuoso, amistoso y amable, buen trabajo en equipo y siempre con buena disposición para aprender son cualidades que me caracterizan. Adquiero conocimientos rapidamente y me adapto fácil a las situaciones que se presenten.",
-        "abilities": "Habilidades y conocimientos",
+        "abilities": "Habilidades técnicas",
         "experience": "Experiencia Laboral",
         "experiences": [
             {

@@ -52,7 +52,7 @@
         "title": "About me!",
         "myself": "Me and how I started programming",
         "myself-description": "A pleasure to meet you! My name is Andrés Felipe Estupiñán Peláez. I am a {years} years old software developer born in the city of Santiago de Cali, Colombia. My interest in software development started since I was 10, but I never really started programming until I was 14 years old.<br/><br/>My story with programming started with SA-MP, a multiplayer mod for GTA San Andreas. I started developing a gamemode using the Pawn scripting language and I shared the server with my class friends.<br/><br/>I also started learning about Visual Basic, then Java and C#, then PHP and Python, and then Lua.<br/><br/>I studied in the National Learning Service (SENA) and, eventually in 2019, I got my first job in the Santiago de Cali University as a software developer. At the same time, I was studying systems engineering in the National Open and Distance University (UNAD).<br/><br/>Passionate of tech, respectful, friendly and kind, work well in a team and always with good disposition to learn something new. I take in knowledge quickly and adapt fast to many situations.",
-        "abilities": "Abilities and knowledge",
+        "abilities": "Technical abilities",
         "experience": "Working Experience",
         "experiences": [
             {
