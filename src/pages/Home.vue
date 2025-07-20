@@ -1,31 +1,20 @@
 <script setup lang="ts">
-    import { computed, onMounted, ref } from 'vue';
-
-    const canvas = ref();
-    const canvasContext = computed(() => canvas.value.getContext('2d'));
-
-    onMounted(() => {
-
-    });
-
+    import Card from '../components/Card.vue';
+    import profileImg from '../assets/me.jpeg';
 </script>
 
+
 <template>
-  <main class="w-full mt-[60px]">
-    <canvas id="wavyBackground" :ref="canvas" width="100%" height="100%"></canvas>
-    Andrés Felipe Estupiñan Peláez
-  </main>
+    <main class="w-full">
+        <div class="mx-auto py-3">
+            <div class="inline-block text-center w-1/2">
+                <img :src="profileImg" class="rounded-full w-50 h-50 inline-block" alt="Profile picture of Andrés Felipe Estupiñan" />
+            </div>
+            <p class="inline-block text-center w-1/2 text-4xl">
+                Andrés Felipe Estupiñan Peláez<br/>
+                Full stack engineer
+            </p>
+        </div>
+        <Card hoverable>test</Card>
+    </main>
 </template>
-
-<style lang="css" scoped>
-
-  #wavyBackground {
-    position: fixed; /* Or absolute, depending on your layout */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1; /* Place it behind other content */
-  }
-
-</style>
