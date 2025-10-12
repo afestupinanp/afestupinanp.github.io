@@ -110,5 +110,6 @@
         "abilities-category-databases": "Bases de datos"
     },
     "not-found": "La página que buscabas no ha sido encontrada.",
-    "soon": "Esta página está siendo construida y será cargada pronto."
+    "soon": "Esta página está siendo construida y será cargada pronto.",
+    "unknown-error": "Error desconocido"
 }

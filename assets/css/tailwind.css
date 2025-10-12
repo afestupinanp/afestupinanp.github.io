@@ -54,24 +54,78 @@ html {
     color: #FFFFFF;
 }
 
+:root {
+    --error-circle-color: rgba(255, 255, 255, 0.7);
+}
+
+.error-circle {
+  /* Basic Shape & Size */
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: var(--error-circle-color);
+  box-shadow:
+    0 0 5px var(--error-circle-color),
+    0 0 10px var(--error-circle-color),
+    0 0 15px var(--error-circle-color),
+    0 0 20px var(--error-circle-color),
+    0 0 30px var(--error-circle-color);
+
+  /* Animation */
+  animation:
+    moveCircle 10s linear infinite,
+    pulseGlow 2s ease-in-out infinite alternate;
+}
+
+@keyframes moveCircle {
+  0% { transform: translate(-50%, -50%) translate(0, 0); }
+  25% { transform: translate(-50%, -50%) translate(100px, 50px); }
+  50% { transform: translate(-50%, -50%) translate(-80px, 120px); }
+  75% { transform: translate(-50%, -50%) translate(150px, -30px); }
+  100% { transform: translate(-50%, -50%) translate(0, 0); }
+}
+
+@keyframes pulseGlow {
+  from {
+    box-shadow:
+      0 0 5px var(--error-circle-color),
+      0 0 10px var(--error-circle-color),
+      0 0 15px var(--error-circle-color),
+      0 0 20px var(--error-circle-color);
+  }
+  to {
+    box-shadow:
+      0 0 7px var(--error-circle-color),
+      0 0 14px var(--error-circle-color),
+      0 0 21px var(--error-circle-color),
+      0 0 28px var(--error-circle-color),
+      0 0 40px var(--error-circle-color);
+  }
+}
+
 @keyframes slideInFromBottom {
     0% {
-        transform: translateY(50%); /* Start 100% down from its final position */
+        transform: translateY(50%);
         opacity: 0;
     }
     100% {
-        transform: translateY(0); /* End at its natural position */
+        transform: translateY(0);
         opacity: 1;
     }
 }
 
 @keyframes slideInFromRight {
     0% {
-        transform: translateX(10%); /* Start 100% down from its final position */
+        transform: translateX(10%);
         opacity: 0;
     }
     100% {
-        transform: translateX(0); /* End at its natural position */
+        transform: translateX(0);
         opacity: 1;
     }
 }

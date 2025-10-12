@@ -14,10 +14,12 @@ export default defineNuxtConfig({
       {
         code: 'en',
         file: 'en.json',
+        language: "English (Inglés)"
       },
       {
         code: 'es',
         file: 'es.json',
+        language: "Spanish (Español)"
       },
     ],
   

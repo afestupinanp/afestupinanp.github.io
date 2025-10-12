@@ -110,5 +110,6 @@
         "abilities-category-databases": "Databases"
     },
     "not-found": "The page you were looking for has not been found.",
-    "soon": "This page is under construction and will be uploaded soon."
+    "soon": "This page is under construction and will be uploaded soon.",
+    "unknown-error": "Unknown error"
 }

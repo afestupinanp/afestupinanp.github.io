@@ -24,6 +24,18 @@
         "type": "devops"
     },
     {
+        "color": "badge-blue",
+        "name": "FastAPI",
+        "icon": "fa-brands fa-python",
+        "type": "frameworks"
+    },
+    {
+        "color": "badge-dark",
+        "name": "Flask",
+        "icon": "fa-brands fa-python",
+        "type": "frameworks"
+    },
+    {
         "color": "badge-red",
         "name": "Git",
         "icon": "fa-brands fa-git",
@@ -58,6 +70,12 @@
         "name": "Java",
         "icon": "fa-brands fa-java",
         "type": "programming-language"
+    },
+    {
+        "color": "badge-yellow",
+        "name": "jQuery",
+        "icon": "fa-brands fa-js",
+        "type": "frameworks"
     },
     {
         "color": "badge-red",
