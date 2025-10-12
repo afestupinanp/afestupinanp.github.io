@@ -1,0 +1,164 @@
+[
+    {
+        "color": "badge-dark",
+        "name": "Bootstrap",
+        "icon": "fa-brands fa-bootstrap",
+        "type": "ui"
+    },
+    {
+        "color": "badge-dark",
+        "name": "C#",
+        "icon": "fa-brands fa-microsoft",
+        "type": "programming-language"
+    },
+    {
+        "color": "badge-red",
+        "name": "CSS3",
+        "icon": "fa-brands fa-css3",
+        "type": "ui"
+    },
+    {
+        "color": "badge-blue",
+        "name": "Docker",
+        "icon": "fa-brands fa-docker",
+        "type": "devops"
+    },
+    {
+        "color": "badge-red",
+        "name": "Git",
+        "icon": "fa-brands fa-git",
+        "type": "tools"
+    },
+    {
+        "color": "badge-yellow",
+        "name": "GitLab CI/CD",
+        "icon": "fa-brands fa-gitlab",
+        "type": "devops"
+    },
+    {
+        "color": "badge-dark",
+        "name": "GitHub Actions",
+        "icon": "fa-brands fa-github",
+        "type": "devops"
+    },
+    {
+        "color": "badge-blue",
+        "name": "Go",
+        "icon": "fa-brands fa-golang",
+        "type": "programming-language"
+    },
+    {
+        "color": "badge-green",
+        "name": "Google Cloud",
+        "icon": "fa-brands fa-google",
+        "type": "devops"
+    },
+    {
+        "color": "badge-red",
+        "name": "Java",
+        "icon": "fa-brands fa-java",
+        "type": "programming-language"
+    },
+    {
+        "color": "badge-red",
+        "name": "Laravel",
+        "icon": "fa-brands fa-laravel",
+        "type": "frameworks"
+    },
+    {
+        "color": "badge-yellow",
+        "name": "Linux",
+        "icon": "fa-brands fa-linux",
+        "type": "operating-systems"
+    },
+    {
+        "color": "badge-red",
+        "name": "Lua",
+        "icon": "fa-solid fa-code",
+        "type": "programming-language"
+    },
+    {
+        "color": "badge-green",
+        "name": "MongoDB",
+        "icon": "fa-solid fa-database",
+        "type": "databases"
+    },
+    {
+        "color": "badge-blue",
+        "name": "Microsoft Azure",
+        "icon": "fa-brands fa-microsoft",
+        "type": "devops"
+    },
+    {
+        "color": "badge-blue",
+        "name": "MySQL",
+        "icon": "fa-solid fa-database",
+        "type": "databases"
+    },
+    {
+        "color": "badge-green",
+         "name": "Node.js",
+         "icon": "fa-brands fa-node-js",
+         "type": "tools"
+    },
+    {
+        "color": "badge-red",
+         "name": "Oracle DB",
+         "icon": "fa-solid fa-database",
+         "type": "databases"
+    },
+    {
+        "color": "badge-green",
+         "name": "Nuxt.js",
+         "icon": "fa-brands fa-vuejs",
+         "type": "frameworks"
+    },
+    {
+        "color": "badge-yellow",
+        "name": "Pawn",
+        "icon": "fa-solid fa-chess-pawn",
+        "type": "programming-language"
+    },
+    {
+        "color": "badge-dark",
+        "name": "php",
+        "icon": "fa-brands fa-php",
+        "type": "programming-language"
+    },
+    {
+        "color": "badge-blue",
+        "name": "Python",
+        "icon": "fa-brands fa-python",
+        "type": "programming-language"
+    },
+    {
+        "color": "badge-dark",
+        "name": "React",
+        "icon": "fa-brands fa-react",
+        "type": "frameworks"
+    },
+    {
+        "color": "badge-yellow",
+        "name": "Svelte.js",
+        "icon": "fa-solid fa-code",
+        "type": "frameworks"
+    },
+    {
+        "color": "badge-blue",
+        "name": "TypeScript",
+        "icon": "fa-brands fa-js",
+        "type": "programming-language"
+    },
+    {
+        "color": "badge-dark",
+        "name": "TailwindCSS",
+        "icon": "fa-solid fa-code",
+        "type": "ui"
+    },
+    {
+        "color": "badge-green",
+        "name": "Vue.js",
+        "icon": "fa-brands fa-vuejs",
+        "type": "frameworks"
+    }
+]

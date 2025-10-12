@@ -1,0 +1,20 @@
+[
+    {
+        "image": "../assets/priverionplatform.jpg",
+        "title": "projects.priverionplatform.title",
+        "description": "projects.priverionplatform.description",
+        "website": "https://priverion.com/platform"
+    },
+    {
+        "image": "../assets/sipacLogo.png",
+        "title": "projects.sipac.title",
+        "description": "projects.sipac.description",
+        "website": "https://sipac2.usc.edu.co"
+    },
+    {
+        "image": "../assets/ssmanagerLogo.png",
+        "title": "projects.ssmanager.title",
+        "description": "projects.ssmanager.description",
+        "repository": "https://github.com/afestupinanp/ssmanager"
+    }
+]

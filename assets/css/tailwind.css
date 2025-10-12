@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-family: "Inter", system-ui;
+}
+
+.slide-up-animation {
+    animation: slideInFromBottom 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.slide-left-animation {
+    animation: slideInFromRight 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.hover-zoom {
+    transition: ease-in-out 1s;
+    transform: scale(1.05);
+}
+
+.hover-zoom:hover {
+    transform: scale(1.1);
+}
+
+.glow {
+    @apply [text-shadow:0_0_20px_rgba(0,255,255,0.7)];
+}
+
+.badge-red {
+    @apply bg-red-800;
+}
+
+.badge-green {
+    @apply bg-green-800;
+}
+
+.badge-blue {
+    @apply bg-blue-800;
+}
+
+.badge-dark {
+    @apply bg-gray-900;
+}
+
+.badge-yellow {
+    @apply bg-yellow-800;
+}
+
+::selection {
+    background-color: #1c366b;
+    color: #FFFFFF;
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(50%); /* Start 100% down from its final position */
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0); /* End at its natural position */
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(10%); /* Start 100% down from its final position */
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); /* End at its natural position */
+        opacity: 1;
+    }
+}

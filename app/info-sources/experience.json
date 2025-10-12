@@ -1,0 +1,30 @@
+[
+    {
+        "dates": "about.experiences.0.time",
+        "company": "about.experiences.0.title",
+        "position": "about.experiences.0.position",
+        "description": "about.experiences.0.description",
+        "location": "about.experiences.0.location"
+    },
+    {
+        "dates": "about.experiences.1.time",
+        "company": "about.experiences.1.title",
+        "position": "about.experiences.1.position",
+        "description": "about.experiences.1.description",
+        "location": "about.experiences.1.location"
+    },
+    {
+        "dates": "about.experiences.2.time",
+        "company": "about.experiences.2.title",
+        "position": "about.experiences.2.position",
+        "description": "about.experiences.2.description",
+        "location": "about.experiences.2.location"
+    },
+    {
+        "dates": "about.experiences.3.time",
+        "company": "about.experiences.3.title",
+        "position": "about.experiences.3.position",
+        "description": "about.experiences.3.description",
+        "location": "about.experiences.3.location"
+    }
+]

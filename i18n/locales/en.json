@@ -1,0 +1,114 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About me",
+        "experience-skills": "Experience and Skills",
+        "projects": "Projects",
+        "dark-theme": "Dark theme",
+        "language": "Language",
+        "contact-me": "Contact me"
+    },
+    "home": {
+        "welcoming": "Andrés Felipe Estupiñán Peláez",
+        "my-name": "Full stack software developer",
+        "title": "Home",
+        "sections": {
+            "my-knowledge": "My knowledge and abilities",
+            "stand-out-projects": "Stand out projects"
+        },
+        "icons": {
+            "full-stack": "Full stack software developer",
+            "full-stack-description": "Knowledge in the JavaScript/TypeScript, Java, PHP, C#, Python and Go programming languages",
+            "bilingual": "100% Bilingual developer",
+            "bilingual-description": "Writing, reading and conversational abilities in C1 level, certified by iTEP exam",
+            "experience-time": "6 years of working experience",
+            "experience-time-description": "I have 6 years of working experience in the professional world of software development",
+            "cicd": "Very familiar with CI/CD",
+            "cicd-description": "I have experience working with Docker, GitLab CI/CD and GitHub Actions in order to deliver new features to customers"
+        }
+    },
+    "projects": {
+        "nda-warning": "Important: not every project I've worked on is here due to it may being considered as potentially sensitive to be shared.",
+        "visit-page": "Visit website",
+        "code-repo": "See code repository",
+        "see-all": "See all the projects",
+        "priverionplatform": {
+            "title": "Priverion Platform",
+            "description": "I led the development of new modules and fixes for the Priverion Platform. The Priverion Platform allows to manage information security and data protection information to comply with standards such as ISO27001 2022 and GDPR."
+        },
+        "sipac": {
+            "title": "Sistema de Información Para el Aseguramiento de la Calidad (SIPAC)",
+            "description": "Project developed with the software development team in the Santiago de Cali University. I worked and lead many of the modules for this system, including: the automating of the creation of the academic emails using Google, and then Microsoft; Teacher Payroll Projection, new version of the projects platform for the DGI, Digital IDs and much more. New version and old version made in Laravel."
+        },
+        "apps": {
+            "title": "Pagos En Línea (APPS)",
+            "description": "New version of the project of Online Payments (Pagos En Línea) por the Santiago de Cali University, developed with the software development team. It is integrated with PlacetoPay and the existing Financial System in the institution, it also includes 100% english localization, made in Laravel."
+        },
+        "ssmanager": {
+            "title": "Student School Manager (SSManager)",
+            "description": "Final project created with a classmate of school. Developed for the San Francisco de Asís School when I was 16 years old, it allows the managing of the observations to the students of the school. Made in pure PHP when I was still learning."
+        }
+    },
+    "about": {
+        "title": "About me!",
+        "myself": "Me and how I started programming",
+        "description": "Get to know Andrés Felipe Estupiñan Peláez, learn how his career began and his academic titles.",
+        "myself-description": "A pleasure to meet you! My name is Andrés Felipe Estupiñán Peláez. I am a {years} years old software developer born in the city of Santiago de Cali, Colombia. My interest in software development started since I was 10, but I never really started programming until I was 14 years old.<br/><br/>My story with programming started with SA-MP, a multiplayer mod for GTA San Andreas. I started developing a gamemode using the Pawn scripting language and I shared the server with my class friends.<br/><br/>I also started learning about Visual Basic, then Java and C#, then PHP and Python, and then Lua.<br/><br/>I studied in the National Learning Service (SENA) and, eventually in 2019, I got my first job in the Santiago de Cali University as a software developer. At the same time, I was studying systems engineering in the National Open and Distance University (UNAD).<br/><br/>Passionate of tech, respectful, friendly and kind, work well in a team and always with good disposition to learn something new. I take in knowledge quickly and adapt fast to many situations.",
+        "abilities": "Technical abilities",
+        "experience": "Working Experience",
+        "experiences": [
+            {
+                "title": "Priverion",
+                "position": "Lead Software Engineer",
+                "time": "January 2024 - February 2025",
+                "description": "As the Lead Software Engineer, my tasks are related to leading a team of engineers in order to improve and add new functionalities to the Priverion Platform. My responsibilities go from attending meetings to gather requirements, design and plan features and sprints, do code reviews and give technical advices to the team.",
+                "location": "Switzerland, remote"
+            },
+            {
+                "title": "Universidad Santiago de Cali",
+                "position": "Development engineer",
+                "time": "June 2022 - December 2023",
+                "description": "As a development engineer, my assignments are leading the software development team of the University, up to 7 people. I attend meetings, make trainings, delegate responsabilities and supervise the execution of all the activities. I manage the application servers used by the team, as well as maintain the GitLab server instance and the existing Docker images, as well as code certain elements.",
+                "location": "Cali, Colombia. In office"
+            },
+            {
+                "title": "Universidad Santiago de Cali",
+                "position": "Software developer",
+                "time": "February 2020 - June 2022",
+                "description": "As a software developer, I translated the requirements made by the development engineer to create modules and high quality, efficient solutions.",
+                "location": "Cali, Colombia. In office"
+            },
+            {
+                "title": "Universidad Santiago de Cali",
+                "position": "SENA Apprentice",
+                "time": "June 2019 - December 2019",
+                "description": "As a SENA apprentice, I trained myself with the Laravel framework and the necessary tools to do my job. My job was writing efficient and optimal code to bring solutions to the requirements requested by the development engineer.",
+                "location": "Cali, Colombia. In office"
+            }
+        ],
+        "academic": "Academic titles",
+        "academics": [
+            {
+                "title": "Systems Engineer",
+                "time": "March 2020 - December 2024",
+                "location": "Universidad Nacional Abierta y a Distancia"
+            },
+            {
+                "title": "Tecnólogo en Análisis y Desarrollo de Sistemas de Información",
+                "time": "December 2017 - December 2019",
+                "location": "Servicio Nacional de Aprendizaje SENA"
+            }
+        ],
+        "fun-facts": "Fun Facts",
+        "fun-facts-facts": "Fun facts",
+        "abilities-category-programming-language": "Programming languages",
+        "abilities-category-frameworks": "Frameworks",
+        "abilities-category-ui": "UI",
+        "abilities-category-operating-systems": "Operating systems",
+        "abilities-category-tools": "Tools",
+        "abilities-category-devops": "DevOps",
+        "abilities-category-databases": "Databases"
+    },
+    "not-found": "The page you were looking for has not been found.",
+    "soon": "This page is under construction and will be uploaded soon."
+}

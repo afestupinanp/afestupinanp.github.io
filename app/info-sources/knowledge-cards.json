@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "fa-solid fa-laptop-code",
+        "title": "home.icons.full-stack",
+        "description": "home.icons.full-stack-description"
+    },
+    {
+        "icon": "fa-solid fa-rocket",
+        "title": "home.icons.cicd",
+        "description": "home.icons.cicd-description"
+    },
+    {
+        "icon": "fa-solid fa-language",
+        "title": "home.icons.bilingual",
+        "description": "home.icons.bilingual-description"
+    },
+    {
+        "icon": "fa-solid fa-hourglass-half",
+        "title": "home.icons.experience-time",
+        "description": "home.icons.experience-time-description"
+    }
+]
