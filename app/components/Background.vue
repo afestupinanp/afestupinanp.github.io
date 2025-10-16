@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div class="fixed top-0 left-0 z-[-1] min-h-full min-w-full">
+    <div class="fixed top-0 left-0 z-[-1] min-h-full min-w-full h-[100vh]">
         <svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
             <defs>
                 <linearGradient id="waveGradient" x1="0%" y1="0%" x2="0%" y2="100%">
