@@ -1,0 +1,68 @@
+## Contact Information
+Email: andres.pelaez00@hotmail.com
+Twitter/X: https://twitter.com/andrespelaez00
+GitHub: https://github.com/afestupinanp
+LinkedIn: https://linkedin.com/andrespelaez00
+
+---
+
+## Professional Summary
+A pleasure to meet you! My name is **Andrés Felipe Estupiñán Peláez**, a 25-year-old software developer born in Santiago de Cali, Colombia. My passion for technology began at age 10, leading to my first programming experience at 14 with the **Pawn** scripting language for a SA-MP (GTA San Andreas multiplayer) gamemode.
+
+I am a **passionate, respectful, friendly, and kind** professional. I excel in team environments, have a strong disposition to learn new things, and can quickly assimilate knowledge and adapt to diverse situations.
+
+---
+
+## Education
+**Universidad Nacional Abierta y a Distancia (UNAD)**
+* Systems Engineer (March 2020 - December 2024)
+
+**Servicio Nacional de Aprendizaje (SENA)**
+* Tecnólogo en Análisis y Desarrollo de Sistemas de Información (December 2017 - December 2019)
+
+---
+
+## Working Experience
+
+### Priverion
+**Lead Software Engineer** (January 2024 - February 2025)
+* **Location:** Switzerland, remote
+* **Responsibilities:** Leading a team to improve and add new functionalities to the Priverion Platform. Tasks include gathering requirements, designing/planning features and sprints, conducting code reviews, and providing technical advice.
+
+### Universidad Santiago de Cali
+**Development Engineer** (June 2022 - December 2023)
+* **Location:** Cali, Colombia (In office)
+* **Responsibilities:** Led the software development team (up to 7 people). Tasks included attending meetings, conducting trainings, delegating responsibilities, supervising activities, managing application servers, and maintaining the **GitLab server instance** and existing **Docker images**.
+
+**Software Developer** (February 2020 - June 2022)
+* **Location:** Cali, Colombia (In office)
+* **Responsibilities:** Translated requirements from the development engineer into high-quality, efficient modules and solutions.
+
+**SENA Apprentice** (June 2019 - December 2019)
+* **Location:** Cali, Colombia (In office)
+* **Responsibilities:** Trained with the **Laravel framework** and other necessary tools. Wrote efficient and optimal code to deliver solutions based on requirements.
+
+---
+
+## Technical Abilities
+
+### Programming Languages
+C#, Go, Java, **Lua**, **Pawn**, PHP, Python, TypeScript
+
+### Frameworks
+FastAPI, Flask, jQuery, Laravel, Nuxt.js, React, Svelte.js, Vue.js
+
+### Databases
+MongoDB, MySQL, Oracle DB
+
+### DevOps
+Docker, GitLab CI/CD, GitHub Actions, Google Cloud, Microsoft Azure
+
+### Tools
+Git, Node.js
+
+### Operating Systems
+Linux
+
+### UI/Styling
+Bootstrap, CSS3, TailwindCSS

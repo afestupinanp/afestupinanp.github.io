@@ -11,13 +11,13 @@
                 </linearGradient>
             </defs>
 
-            <g class="wave-container-1" transform="translateX(-240)">
+            <g class="wave-container-1" transform="translate(-240, 0)">
                 <path class="wave-path-main"
                     d="M0,700 C500,600 1200,800 1800,650 C2100,550 2400,700 2400,700 L2400,1080 L0,1080 Z"
                     fill="url(#waveGradient)" />
             </g>
 
-            <g class="wave-container-2" transform="translateX(-240)">
+            <g class="wave-container-2" transform="translate(-240, 0)">
                 <path class="wave-path-secondary"
                     d="M0,750 C600,600 1300,850 2000,700 C2200,650 2400,750 2400,750 L2400,1080 L0,1080 Z"
                     fill="rgba(255,255,255,0.05)" />
