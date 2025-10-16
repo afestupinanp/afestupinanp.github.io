@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n'],
   i18n: {
+    baseUrl: process.env.NODE_ENV == 'development' ? 'http://localhost:3000' : 'https://afestupinanp.pages.dev',
     compilation: {
       strictMessage: false
     },
@@ -14,12 +15,14 @@ export default defineNuxtConfig({
       {
         code: 'en',
         file: 'en.json',
-        language: "English (Inglés)"
+        language: "en-US",
+        name: "English (Inglés)",
       },
       {
         code: 'es',
         file: 'es.json',
-        language: "Spanish (Español)"
+        language: "es-ES",
+        name: "Español (Español)",
       },
     ],
   

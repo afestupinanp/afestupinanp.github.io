@@ -3,7 +3,8 @@
     import skills from '@/info-sources/skills.json';
 
     useSeoMeta({
-        title: `Andrés Peláez - ${$t('navbar.experience-skills')}`
+        title: `Andrés Peláez - ${$t('navbar.experience-skills')}`,
+        description: $t('experience-description'),
     });
 </script>
 

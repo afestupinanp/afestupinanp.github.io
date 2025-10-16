@@ -8,7 +8,8 @@
     }
 
     useSeoMeta({
-        title: `Andrés Peláez - ${$t('navbar.about')}`
+        title: `Andrés Peláez - ${$t('navbar.about')}`,
+        description: $t('about.description')
     });
 </script>
 

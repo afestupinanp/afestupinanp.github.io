@@ -58,6 +58,10 @@ html {
     --error-circle-color: rgba(255, 255, 255, 0.7);
 }
 
+.bg-animate-scroll {
+    animation: bg-scroll 1s linear infinite;
+}
+
 .error-circle {
   /* Basic Shape & Size */
   width: 10px;
@@ -128,4 +132,31 @@ html {
         transform: translateX(0);
         opacity: 1;
     }
+}
+
+@keyframes waveDriftMain {
+  0% {
+    transform: translateX(calc(-240px - 5%));
+  }
+  100% {
+    transform: translateX(calc(-240px + 5%));
+  }
+}
+
+@keyframes waveDriftSecondary {
+  0% {
+    transform: translateX(calc(-240px + 8%));
+  }
+  100% {
+    transform: translateX(calc(-240px - 2%));
+  }
+}
+
+
+.wave-container-1 {
+  animation: waveDriftMain 25s linear infinite alternate;
+}
+
+.wave-container-2 {
+  animation: waveDriftSecondary 35s linear infinite alternate;
 }

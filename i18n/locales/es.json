@@ -9,7 +9,8 @@
         "contact-me": "Contáctame"
     },
     "home": {
-        "welcoming": "Andrés Felipe Estupiñán Peláez",
+        "welcoming": "Andrés Felipe Estupiñan Peláez",
+        "description": "Página de inicio del ingeniero de software Andrés Felipe Estupiñan Peláez: ingeniero con más de 6 años de experiencia con conocimientos en una variedad de áreas del desarrollo de software.",
         "my-name": "Desarrollador de software full stack",
         "title": "Inicio",
         "sections": {
@@ -23,7 +24,7 @@
             "bilingual-description": "Habilidades de escritura, lectura y conversacionales de nivel C1 certificado por examen iTEP",
             "experience-time": "6 años de experiencia",
             "experience-time-description": "Tengo 6 años de experiencia en el mundo profesional del desarrollo de software",
-            "cicd": "Familiarizado con CI/CD",
+            "cicd": "Experiencia con CI/CD",
             "cicd-description": "Tengo experiencia trabajando con Docker, GitLab CI/CD y GitHub Actions para entregar nuevas funcionalidades a los clientes"
         }
     },
@@ -99,8 +100,6 @@
                 "location": "Servicio Nacional de Aprendizaje SENA"
             }
         ],
-        "fun-facts": "Datos curiosos",
-        "fun-facts-facts": "<li>Me gradué con honores en mi universidad.</li><li>Participé en Javatar 2015 de la Pontificia Universidad Javeriana (un festival de desarrollo de videojuegos en el que participé con otros compañeros de colegio. Hicimos algo extremadamente básico en Unity 3D.)</li><li></li>",
         "abilities-category-programming-language": "Lenguajes de programación",
         "abilities-category-frameworks": "Frameworks",
         "abilities-category-ui": "UI",
@@ -111,5 +110,6 @@
     },
     "not-found": "La página que buscabas no ha sido encontrada.",
     "soon": "Esta página está siendo construida y será cargada pronto.",
-    "unknown-error": "Error desconocido"
+    "unknown-error": "Error desconocido",
+    "experiences-description": "Revisa la experiencia laboral del ingeniero Andrés Felipe Estupiñan Peláez."
 }

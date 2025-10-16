@@ -9,7 +9,8 @@
         "contact-me": "Contact me"
     },
     "home": {
-        "welcoming": "Andrés Felipe Estupiñán Peláez",
+        "welcoming": "Andrés Felipe Estupiñan Peláez",
+        "description": "Home page of the software engineer Andrés Felipe Estupiñan peláez: engineer with more than 6 years of working experience with knowledge in a variety of areas of software development.",
         "my-name": "Full stack software developer",
         "title": "Home",
         "sections": {
@@ -23,7 +24,7 @@
             "bilingual-description": "Writing, reading and conversational abilities in C1 level, certified by iTEP exam",
             "experience-time": "6 years of working experience",
             "experience-time-description": "I have 6 years of working experience in the professional world of software development",
-            "cicd": "Very familiar with CI/CD",
+            "cicd": "Experience with CI/CD",
             "cicd-description": "I have experience working with Docker, GitLab CI/CD and GitHub Actions in order to deliver new features to customers"
         }
     },
@@ -53,7 +54,7 @@
         "title": "About me!",
         "myself": "Me and how I started programming",
         "description": "Get to know Andrés Felipe Estupiñan Peláez, learn how his career began and his academic titles.",
-        "myself-description": "A pleasure to meet you! My name is Andrés Felipe Estupiñán Peláez. I am a {years} years old software developer born in the city of Santiago de Cali, Colombia. My interest in software development started since I was 10, but I never really started programming until I was 14 years old.<br/><br/>My story with programming started with SA-MP, a multiplayer mod for GTA San Andreas. I started developing a gamemode using the Pawn scripting language and I shared the server with my class friends.<br/><br/>I also started learning about Visual Basic, then Java and C#, then PHP and Python, and then Lua.<br/><br/>I studied in the National Learning Service (SENA) and, eventually in 2019, I got my first job in the Santiago de Cali University as a software developer. At the same time, I was studying systems engineering in the National Open and Distance University (UNAD).<br/><br/>Passionate of tech, respectful, friendly and kind, work well in a team and always with good disposition to learn something new. I take in knowledge quickly and adapt fast to many situations.",
+        "myself-description": "A pleasure to meet you! My name is Andrés Felipe Estupiñán Peláez. I am a {years} years old software developer born in the city of Santiago de Cali, Colombia. My interest in software development started since I was 10, but I never really started programming until I was 14 years old.<br/><br/>My story with programming started with SA-MP, a multiplayer mod for GTA San Andreas. I started developing a gamemode using the Pawn scripting language and I shared the server with my class friends.<br/><br/>I also started learning about Visual Basic, then Java and C#, then PHP and Python, and then Lua.<br/><br/>I studied in the National Learning Service (SENA) and, eventually in 2019, I got my first job in the Santiago de Cali University as a software developer. At the same time, I was studying systems engineering in the National Open and Distance University (UNAD).<br/><br/>Passionate for tech, respectful, friendly and kind, work well in a team and always with good disposition to learn something new. I take in knowledge quickly and adapt fast to many situations.",
         "abilities": "Technical abilities",
         "experience": "Working Experience",
         "experiences": [
@@ -99,8 +100,6 @@
                 "location": "Servicio Nacional de Aprendizaje SENA"
             }
         ],
-        "fun-facts": "Fun Facts",
-        "fun-facts-facts": "Fun facts",
         "abilities-category-programming-language": "Programming languages",
         "abilities-category-frameworks": "Frameworks",
         "abilities-category-ui": "UI",
@@ -111,5 +110,6 @@
     },
     "not-found": "The page you were looking for has not been found.",
     "soon": "This page is under construction and will be uploaded soon.",
-    "unknown-error": "Unknown error"
+    "unknown-error": "Unknown error",
+    "experience-description": "Check out the working experience of engineer Andrés Felipe Estupiñan Peláez."
 }
