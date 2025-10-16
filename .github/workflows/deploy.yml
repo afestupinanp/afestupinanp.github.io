@@ -41,4 +41,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy ./output/public --project-name=afestupinanp --branch=main
+          command: pages deploy ./.output/public --project-name=afestupinanp --branch=main
