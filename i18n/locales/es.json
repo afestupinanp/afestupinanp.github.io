@@ -106,10 +106,12 @@
         "abilities-category-operating-systems": "Sistemas operativos",
         "abilities-category-tools": "Herramientas",
         "abilities-category-devops": "DevOps",
-        "abilities-category-databases": "Bases de datos"
+        "abilities-category-databases": "Bases de datos",
+        "abilities-category-testing": "Pruebas automatizadas",
+        "abilities-category-ai-frameworks": "Frameworks de inteligencia artificial"
     },
     "not-found": "La página que buscabas no ha sido encontrada.",
     "soon": "Esta página está siendo construida y será cargada pronto.",
     "unknown-error": "Error desconocido",
-    "experiences-description": "Revisa la experiencia laboral del ingeniero Andrés Felipe Estupiñan Peláez."
+    "experience-description": "Revisa la experiencia laboral del ingeniero Andrés Felipe Estupiñan Peláez."
 }

@@ -106,7 +106,9 @@
         "abilities-category-operating-systems": "Operating systems",
         "abilities-category-tools": "Tools",
         "abilities-category-devops": "DevOps",
-        "abilities-category-databases": "Databases"
+        "abilities-category-databases": "Databases",
+        "abilities-category-testing": "Automated testing",
+        "abilities-category-ai-frameworks": "AI frameworks"
     },
     "not-found": "The page you were looking for has not been found.",
     "soon": "This page is under construction and will be uploaded soon.",

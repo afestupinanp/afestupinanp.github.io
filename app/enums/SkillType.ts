@@ -6,6 +6,8 @@ enum SkillType {
     Frameworks = 'frameworks',
     OperatingSystems = 'operating-systems',
     Databases = 'databases',
+    Testing = 'testing',
+    AiFrameworks = 'ai-frameworks',
 }
 
 export const SKILL_TYPE_TO_LANGUAGE_KEY: Record<SkillType, string>= {
@@ -15,7 +17,9 @@ export const SKILL_TYPE_TO_LANGUAGE_KEY: Record<SkillType, string>= {
     [SkillType.DevOps]: 'about.abilities-category-devops',
     [SkillType.Frameworks]: 'about.abilities-category-frameworks',
     [SkillType.OperatingSystems]: 'about.abilities-category-operating-systems',
-    [SkillType.Databases]: 'about.abilities-category-databases'
+    [SkillType.Databases]: 'about.abilities-category-databases',
+    [SkillType.Testing]: 'about.abilities-category-testing',
+    [SkillType.AiFrameworks]: 'about.abilities-category-ai-frameworks',
 }
 
 export default SkillType;

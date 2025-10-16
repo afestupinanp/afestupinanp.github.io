@@ -60,6 +60,12 @@
         "type": "programming-language"
     },
     {
+        "color": "badge-dark",
+        "name": "Google ADK",
+        "icon": "fa-solid fa-star-of-life",
+        "type": "ai-frameworks"
+    },
+    {
         "color": "badge-green",
         "name": "Google Cloud",
         "icon": "fa-brands fa-google",
@@ -72,10 +78,22 @@
         "type": "programming-language"
     },
     {
+        "color": "badge-green",
+        "name": "Jest",
+        "icon": "fa-brands fa-js",
+        "type": "testing"
+    },
+    {
         "color": "badge-yellow",
         "name": "jQuery",
         "icon": "fa-brands fa-js",
         "type": "frameworks"
+    },
+    {
+        "color": "badge-dark",
+        "name": "LangChain & LangGraph",
+        "icon": "fa-solid fa-star-of-life",
+        "type": "ai-frameworks"
     },
     {
         "color": "badge-red",
@@ -139,9 +157,15 @@
     },
     {
         "color": "badge-dark",
-        "name": "php",
+        "name": "PHP",
         "icon": "fa-brands fa-php",
         "type": "programming-language"
+    },
+    {
+        "color": "badge-blue",
+        "name": "PHPUnit",
+        "icon": "fa-brands fa-php",
+        "type": "testing"
     },
     {
         "color": "badge-blue",
@@ -172,6 +196,12 @@
         "name": "TailwindCSS",
         "icon": "fa-solid fa-code",
         "type": "ui"
+    },
+    {
+        "color": "badge-yellow",
+        "name": "Vitest",
+        "icon": "fa-brands fa-js",
+        "type": "testing"
     },
     {
         "color": "badge-green",
