@@ -16,7 +16,7 @@
             </p>
             <div class="w-full flex flex-col lg:flex-row mt-5 gap-10 lg:gap-5">
                 <div class="flex items-center justify-center gap-3 text-2xl">
-                    <a href="https://x.com/afestupinanp" aria-label="Twitter/X link" target="_blank" rel="noopener noreferrer">
+                    <a href="https://x.com/andrespelaez00" aria-label="Twitter/X link" target="_blank" rel="noopener noreferrer">
                         <i class="fa-brands fa-x-twitter"></i>
                     </a>
                     <a href="https://github.com/afestupinanp" aria-label="GitHub link" target="_blank" rel="noopener noreferrer">
