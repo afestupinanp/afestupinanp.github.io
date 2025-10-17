@@ -1,5 +1,7 @@
 <script setup lang="ts">
     import academics from '@/info-sources/academics.json';
+    import AcademicCategory from '@/enums/AcademicCategory';
+    import type Academic from '@/interfaces/Academic';
 
     const current = new Date();
     let years = current.getFullYear() - 2000;
@@ -11,6 +13,10 @@
         title: `Andrés Peláez - ${$t('navbar.about')}`,
         description: $t('about.description')
     });
+
+    const formalAcademics: Academic[] = academics.filter((academic) => academic.category == AcademicCategory.Formal) as Academic[];
+    const coursesAcademics: Academic[] = academics.filter((academic) => academic.category == AcademicCategory.Course) as Academic[];
+
 </script>
 
 <template>
@@ -21,7 +27,10 @@
         </Card>
         <Card class="flex-1">
             <SectionSeparator icon="fa-solid fa-graduation-cap" :title="$t('about.academic')" />
-            <AcademicList :list="academics" />
+            <AcademicList :list="formalAcademics" />
+
+            <SectionSeparator icon="fa-solid fa-award" :title="$t('about.courses-title')" />
+            <CourseList :list="coursesAcademics" />
         </Card>
     </main>
 </template>

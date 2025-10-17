@@ -62,14 +62,14 @@
                 "title": "Priverion",
                 "position": "Lead Software Engineer",
                 "time": "Enero 2024 - Febrero 2025",
-                "description": "Como Lead Software Engineer (Ingeniero de Software Líder), mis tareas están relacionadas a liderar un equipo de ingenieros para mejorar y agregar nuevas funcionalidades a la Plataforma de Priverion. Mis responsabilidades van desde atender reuniones para requerimientos, diseñar y planificar funcionalidades y sprints, realizar revisiones de código y asesoría técnica al equipo.",
+                "description": "Como Lead Software Engineer (Ingeniero de Software Líder), mis tareas estaban relacionadas a liderar un equipo de ingenieros para mejorar y agregar nuevas funcionalidades a la Plataforma de Priverion. Mis responsabilidades iban desde atender reuniones para requerimientos, diseñar y planificar funcionalidades y sprints, realizar revisiones de código y brindar asesoría técnica al equipo.",
                 "location": "Suiza. En remoto."
             },
             {
                 "title": "Universidad Santiago de Cali",
                 "position": "Ingeniero de desarrollo",
                 "time": "Junio 2022 - Diciembre 2023",
-                "description": "Como ingeniero de desarrollo, mis labores corresponden en el liderazgo del equipo de desarrollo de software de la Universidad de hasta 7 personas. Atiendo reuniones, realizo capacitaciones, y delego responsabilidades y superviso la ejecución de las actividades. Gestiono los servidores de los aplicativos desarrollados por el equipo, mantengo el servidor de GitLab y las imágenes de Docker existentes, así como codificar ciertos elementos.",
+                "description": "Como ingeniero de desarrollo, mis labores correspondieron al liderazgo del equipo de desarrollo de software de la Universidad de hasta 7 personas. Atendí a reuniones, realicé capacitaciones, delegué responsabilidad y supervisé la ejecución de las actividades. Gestioné los servidores de los aplicativos desarrollados por el equipo, di mantenimiento el servidor de GitLab y las imágenes de Docker existentes, y codifiqué ciertos elementos.",
                 "location": "Cali, Colombia. En oficina."
             },
             {
@@ -100,6 +100,29 @@
                 "location": "Servicio Nacional de Aprendizaje SENA"
             }
         ],
+        "courses": [
+            {
+                "title": "LangChain - Develop AI Agents with LangChain & LangGraph",
+                "time": "Agosto 2025",
+                "location": "Udemy"
+            },
+            {
+                "title": "Curso de Inteligencia Emocional para Líderes",
+                "time": "Mayo 2024",
+                "location": "Platzi"
+            },
+            {
+                "title": "Google Cloud Computing Foundations: Cloud Computing Fundamentals; Data, ML, and AI in Google Cloud; Networking & Security in Google Cloud; Infrastructure in Google Cloud",
+                "time": "Diciembre 2023",
+                "location": "Google (en alianza con MinTIC de Colombia)"
+            },
+            {
+                "title": "Microsoft Scrum Foundations",
+                "time": "Diciembre 2023",
+                "location": "Intelligent Training (en alianza con MinTIC de Colombia)"
+            }
+        ],
+        "courses-title": "Cursos",
         "abilities-category-programming-language": "Lenguajes de programación",
         "abilities-category-frameworks": "Frameworks",
         "abilities-category-ui": "UI",

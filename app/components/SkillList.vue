@@ -18,7 +18,7 @@
 
 <template>
     <div v-for="[key, value] in Object.entries(sortedSkillMap)">
-        <SectionSeparator icon="" :glow="false" size="text-lg" :title="$t(value)" />
+        <SectionSeparator icon="" :glow="false" size="text-xl" :title="$t(value)" />
         <div class="flex gap-3 flex-wrap">
             <SkillBadge v-for="skill in list.filter(s => s.type === key)" :key="skill.name" :info="skill" />
         </div>

@@ -2,11 +2,37 @@
     {
         "title": "about.academics.0.title",
         "time": "about.academics.0.time",
-        "location": "about.academics.0.location"
+        "location": "about.academics.0.location",
+        "category": "formal"
     },
     {
         "title": "about.academics.1.title",
         "time": "about.academics.1.time",
-        "location": "about.academics.1.location"
+        "location": "about.academics.1.location",
+        "category": "formal"
+    },
+    {
+        "title": "about.courses.0.title",
+        "time": "about.courses.0.time",
+        "location": "about.courses.0.location",
+        "category": "course"
+    },
+    {
+        "title": "about.courses.1.title",
+        "time": "about.courses.1.time",
+        "location": "about.courses.1.location",
+        "category": "course"
+    },
+    {
+        "title": "about.courses.2.title",
+        "time": "about.courses.2.time",
+        "location": "about.courses.2.location",
+        "category": "course"
+    },
+    {
+        "title": "about.courses.3.title",
+        "time": "about.courses.3.time",
+        "location": "about.courses.3.location",
+        "category": "course"
     }
 ]

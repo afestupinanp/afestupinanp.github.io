@@ -62,14 +62,14 @@
                 "title": "Priverion",
                 "position": "Lead Software Engineer",
                 "time": "January 2024 - February 2025",
-                "description": "As the Lead Software Engineer, my tasks are related to leading a team of engineers in order to improve and add new functionalities to the Priverion Platform. My responsibilities go from attending meetings to gather requirements, design and plan features and sprints, do code reviews and give technical advices to the team.",
+                "description": "As the Lead Software Engineer, my tasks were related to leading a team of engineers in order to improve and add new functionalities to the Priverion Platform. My responsibilities ranged from attending meetings to gather requirements, design and plan features and sprints, performed code reviews and gave technical advices to the team.",
                 "location": "Switzerland, remote"
             },
             {
                 "title": "Universidad Santiago de Cali",
                 "position": "Development engineer",
                 "time": "June 2022 - December 2023",
-                "description": "As a development engineer, my assignments are leading the software development team of the University, up to 7 people. I attend meetings, make trainings, delegate responsabilities and supervise the execution of all the activities. I manage the application servers used by the team, as well as maintain the GitLab server instance and the existing Docker images, as well as code certain elements.",
+                "description": "As a development engineer, my assignments were leading the software development team of the University, up to 7 people. I attended meetings, made trainings, delegated responsibilities and supervised the execution of all the activities. I managed the application servers used by the team, as well as maintain the GitLab server instance and the existing Docker images, as well as coded certain elements.",
                 "location": "Cali, Colombia. In office"
             },
             {
@@ -100,6 +100,29 @@
                 "location": "Servicio Nacional de Aprendizaje SENA"
             }
         ],
+        "courses": [
+            {
+                "title": "LangChain - Develop AI Agents with LangChain & LangGraph",
+                "time": "August 2025",
+                "location": "Udemy"
+            },
+            {
+                "title": "Course for Emotional Intelligence for Leaders",
+                "time": "May 2024",
+                "location": "Platzi"
+            },
+            {
+                "title": "Google Cloud Computing Foundations: Cloud Computing Fundamentals; Data, ML, and AI in Google Cloud; Networking & Security in Google Cloud; Infrastructure in Google Cloud",
+                "time": "December 2023",
+                "location": "Google (in alliance with Colombia's MinTIC)"
+            },
+            {
+                "title": "Microsoft Scrum Foundations",
+                "time": "December 2023",
+                "location": "Intelligent Training (in alliance with Colombia's MinTIC)"
+            }
+        ],
+        "courses-title": "Courses",
         "abilities-category-programming-language": "Programming languages",
         "abilities-category-frameworks": "Frameworks",
         "abilities-category-ui": "UI",
