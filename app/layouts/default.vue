@@ -15,12 +15,13 @@
       },
       link: [
         { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css', crossorigin: 'anonymous', integrity: 'sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==', referrerpolicy: 'no-referrer' }
-      ]
-    })
+      ],
+      htmlAttrs: localizedHead.value.htmlAttrs,
+    });
 
-    useHead({
-      htmlAttrs: localizedHead.value.htmlAttrs
-    })
+    useSeoMeta({
+      googleSiteVerification: "U9Tgguy51wP_lRyMhASKbGnOC4OtR8P8UJU4o9Ibq08"
+    });
 
 </script>
 
