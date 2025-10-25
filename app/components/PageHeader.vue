@@ -22,7 +22,7 @@
                     <a href="https://github.com/afestupinanp" aria-label="GitHub link" target="_blank" rel="noopener noreferrer">
                         <i class="fa-brands fa-github"></i>
                     </a>
-                    <a href="https://linkedin.com/andrespelaez00" aria-label="LinkedIn link" target="_blank" rel="noopener noreferrer">
+                    <a href="https://linkedin.com/in/andrespelaez00" aria-label="LinkedIn link" target="_blank" rel="noopener noreferrer">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
                 </div>
