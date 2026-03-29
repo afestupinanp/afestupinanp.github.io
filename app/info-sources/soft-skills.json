@@ -1,0 +1,86 @@
+[
+    {
+        "color": "badge-green",
+        "name-en": "Leadership",
+        "name-es": "Liderazgo",
+        "icon": "fa-solid fa-person-hiking",
+        "type": "soft-skill"
+    },
+    {
+        "color": "badge-blue",
+        "name-en": "Team Management",
+        "name-es": "Gestión de Equipos",
+        "icon": "fa-solid fa-people-group",
+        "type": "soft-skill"
+    },
+    {
+        "color": "badge-yellow",
+        "name-en": "Communication",
+        "name-es": "Comunicación",
+        "icon": "fa-solid fa-comments",
+        "type": "soft-skill"
+    },
+    {
+        "color": "badge-red",
+        "name-en": "Problem-solving",
+        "name-es": "Resolución de Problemas",
+        "icon": "fa-solid fa-lightbulb",
+        "type": "soft-skill"
+    },
+    {
+        "color": "badge-dark",
+        "name-en": "Teamwork",
+        "name-es": "Trabajo en Equipo",
+        "icon": "fa-solid fa-handshake",
+        "type": "soft-skill"
+    },
+    {
+        "color": "badge-green",
+        "name-en": "Quick Learning",
+        "name-es": "Aprendizaje Rápido",
+        "icon": "fa-solid fa-brain",
+        "type": "soft-skill"
+    },
+    {
+        "color": "badge-blue",
+        "name-en": "Adaptability",
+        "name-es": "Adaptabilidad",
+        "icon": "fa-solid fa-arrows-spin",
+        "type": "soft-skill"
+    },
+    {
+        "color": "badge-yellow",
+        "name-en": "Bilingual (Spanish/English)",
+        "name-es": "Bilingüe (Español/Inglés)",
+        "icon": "fa-solid fa-language",
+        "type": "soft-skill"
+    },
+    {
+        "color": "badge-dark",
+        "name-en": "Requirement Gathering",
+        "name-es": "Recopilación de Requisitos",
+        "icon": "fa-solid fa-list-check",
+        "type": "soft-skill"
+    },
+    {
+        "color": "badge-red",
+        "name-en": "Emotional Intelligence",
+        "name-es": "Inteligencia Emocional",
+        "icon": "fa-solid fa-heart",
+        "type": "soft-skill"
+    },
+    {
+        "color": "badge-green",
+        "name-en": "Technical Documentation",
+        "name-es": "Documentación Técnica",
+        "icon": "fa-solid fa-book",
+        "type": "soft-skill"
+    },
+    {
+        "color": "badge-blue",
+        "name-en": "Code Review & Mentoring",
+        "name-es": "Revisión de Código y Mentoría",
+        "icon": "fa-solid fa-magnifying-glass",
+        "type": "soft-skill"
+    }
+]

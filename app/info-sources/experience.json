@@ -26,5 +26,12 @@
         "position": "about.experiences.3.position",
         "description": "about.experiences.3.description",
         "location": "about.experiences.3.location"
+    },
+    {
+        "dates": "about.experiences.4.time",
+        "company": "about.experiences.4.title",
+        "position": "about.experiences.4.position",
+        "description": "about.experiences.4.description",
+        "location": "about.experiences.4.location"
     }
 ]

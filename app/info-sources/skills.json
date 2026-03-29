@@ -144,6 +144,12 @@
          "type": "databases"
     },
     {
+        "color": "badge-dark",
+        "name": "Next.js",
+        "icon": "fa-brands fa-react",
+        "type": "frameworks"
+    },
+    {
         "color": "badge-green",
          "name": "Nuxt.js",
          "icon": "fa-brands fa-vuejs",

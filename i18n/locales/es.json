@@ -59,6 +59,13 @@
         "experience": "Experiencia Laboral",
         "experiences": [
             {
+                "title": "Leanware",
+                "position": "Mid Full Stack Developer & Project Lead",
+                "location": "Bogotá, Colombia. En remoto.",
+                "time": "March 2025 - Present",
+                "description": "Como Desarrollador Full Stack en Leanware, mis responsabilidades incluyen el desarrollo y mantenimiento de aplicaciones web utilizando tecnologías modernas para varios clientes en diferentes industrias. En junio de 2025, también me ofrecieron el rol de Líder de Proyecto, que implica comunicaciones con los clientes, recopilación de requisitos, delegación de tareas y planeación de sprints para varios proyectos en múltiples industrias."
+            },
+            {
                 "title": "Priverion",
                 "position": "Lead Software Engineer",
                 "time": "Enero 2024 - Febrero 2025",
@@ -123,6 +130,7 @@
             }
         ],
         "courses-title": "Cursos",
+        "soft-skills": "Habilidades Blandas",
         "abilities-category-programming-language": "Lenguajes de programación",
         "abilities-category-frameworks": "Frameworks",
         "abilities-category-ui": "UI",

@@ -24,6 +24,11 @@ I am a **passionate, respectful, friendly, and kind** professional. I excel in t
 
 ## Working Experience
 
+### Leanware
+**Mid Full Stack Developer & Project Lead** (March 2025 - Present)
+* **Location:** Bogotá, Colombia, remote
+* **Responsibilities:** Development and maintenance of web applications using modern technologies for various clients across different industries. On June 2025, promoted to Project Lead with responsibilities including client communications, requirement gathering, task delegation, and sprint planning for various projects across multiple industries.
+
 ### Priverion
 **Lead Software Engineer** (January 2024 - February 2025)
 * **Location:** Switzerland, remote
@@ -66,3 +71,18 @@ Linux
 
 ### UI/Styling
 Bootstrap, CSS3, TailwindCSS
+
+## Soft Skills
+
+* Leadership
+* Team Management
+* Communication
+* Problem-solving
+* Teamwork
+* Quick Learning
+* Adaptability
+* Bilingual (Spanish/English)
+* Requirement Gathering
+* Emotional Intelligence
+* Technical Documentation
+* Code Review & Mentoring
