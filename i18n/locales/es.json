@@ -6,7 +6,8 @@
         "projects": "Proyectos",
         "dark-theme": "Tema oscuro",
         "language": "Idioma",
-        "contact-me": "Contáctame"
+        "contact-me": "Contáctame",
+        "blog": "Blog"
     },
     "home": {
         "welcoming": "Andrés Felipe Estupiñan Peláez",
@@ -49,6 +50,12 @@
             "title": "Student School Manager (SSManager)",
             "description": "Proyecto de grado creado con un compañero del colegio. Desarrollado para el Colegio San Francisco de Asís cuando tenía 16 años, permite realizar la gestión de las observaciones de los estudiantes del colegio. Desarrollado con PHP puro cuando estaba aprendiendo."
         }
+    },
+    "blog": {
+        "description": "Explorando temas personales e ingeniería. Escrito por mí en mi tiempo libre :)",
+        "warning": "Este blog actualmente está disponible solo en inglés.",
+        "go-back": "Volver al listado de posts",
+        "recommended-song": " Canción recomendada para este post:"
     },
     "about": {
         "title": "Acerca de",

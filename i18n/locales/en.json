@@ -6,7 +6,8 @@
         "projects": "Projects",
         "dark-theme": "Dark theme",
         "language": "Language",
-        "contact-me": "Contact me"
+        "contact-me": "Contact me",
+        "blog": "Blog"
     },
     "home": {
         "welcoming": "Andrés Felipe Estupiñan Peláez",
@@ -49,6 +50,12 @@
             "title": "Student School Manager (SSManager)",
             "description": "Final project created with a classmate of school. Developed for the San Francisco de Asís School when I was 16 years old, it allows the managing of the observations to the students of the school. Made in pure PHP when I was still learning."
         }
+    },
+    "blog": {
+        "description": "Exploring personal topics and engineering. Purely written by me on my free time :)",
+        "warning": "This blog is currently available in English only.",
+        "go-back": "Go back to the posts list",
+        "recommended-song": "Recommended song for this post:"
     },
     "about": {
         "title": "About me!",

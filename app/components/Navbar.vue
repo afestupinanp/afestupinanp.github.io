@@ -2,7 +2,8 @@
     const ROUTES = {
         'navbar.home': '/',
         'navbar.about': '/about',
-        'navbar.experience-skills': '/experience'
+        'navbar.experience-skills': '/experience',
+        'navbar.blog': '/blog'
     };
 
     const shouldAddClass = ref(false);

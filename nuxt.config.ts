@@ -4,7 +4,7 @@ import { fileURLToPath, URL } from 'node:url';
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: false },
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', '@nuxtjs/sitemap'],
+  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', '@nuxtjs/i18n', '@nuxtjs/sitemap'],
   i18n: {
     baseUrl: process.env.NODE_ENV == 'development' ? 'http://localhost:3000' : 'https://afestupinanp.pages.dev',
     compilation: {
