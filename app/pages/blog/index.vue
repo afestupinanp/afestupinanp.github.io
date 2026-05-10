@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { formatDate } from '~/utils/general';
 
 useSeoMeta({
     title: `Andrés Peláez - ${$t('navbar.blog')}`,
@@ -8,16 +9,6 @@ useSeoMeta({
 const { data: posts } = await useAsyncData('blog-posts', () =>
     queryCollection('blog').order('date', 'DESC').all()
 )
-
-const formatDate = (date: string | Date | undefined) => {
-    if (!date) return '';
-    const dateObj = typeof date === 'string' ? new Date(date) : date;
-    return dateObj.toLocaleDateString('en-US', {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric'
-    });
-}
 </script>
 
 <template>

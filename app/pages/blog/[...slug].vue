@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { formatDate } from '~/utils/general';
 
 const route = useRoute()
 const { data: post } = await useAsyncData(route.path, () =>
@@ -15,21 +16,10 @@ useSeoMeta({
     ogImage: post.value.image,
     ogTitle: post.value.title,
     ogDescription: post.value.description,
-    twitterCard: 'summary_large_image',
     twitterImage: post.value.image,
     twitterTitle: post.value.title,
     twitterDescription: post.value.description,
 });
-
-const formatDate = (date: string | Date | undefined) => {
-    if (!date) return '';
-    const dateObj = typeof date === 'string' ? new Date(date) : date;
-    return dateObj.toLocaleDateString(undefined, {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric'
-    });
-}
 </script>
 
 <template>
