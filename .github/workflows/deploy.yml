@@ -24,7 +24,9 @@ jobs:
 
       - name: Install dependencies
         working-directory: .
-        run: pnpm install --frozen-lockfile
+        run: |
+          npm install -g pnpm
+          pnpm install --frozen-lockfile
 
       - name: Build app
         working-directory: .
