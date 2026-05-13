@@ -1,6 +1,7 @@
 name: Build and deploy
 
 on:
+  workflow_dispatch:
   release:
     types: [published]
 
@@ -20,7 +21,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24.x'
 
       - name: Install dependencies
         working-directory: .
