@@ -57,7 +57,7 @@ I was always a curious kid. My cousins installed Encarta and Word into the compu
 
 One day, I was browsing YouTube, and found an INSANE YouTube video (for me at the time).
 
-<div class="my-3">
+<div class="my-3 video-container">
     <iframe width="1076" height="807" src="https://www.youtube.com/embed/0pMrLrqG3Ok" title="gta san andreas kame hame ha mod" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
@@ -65,7 +65,7 @@ I was astounded with this video. It was something so cool I wanted to get it for
 
 From this point, nothing would be the same because I got hooked on installing mods for GTA SA. You know classics like the Smoke'n'Drink cleo, the gravity gun, the portal gun and so much more. One of my most memorable mods I installed was a King Kong boss fight mod hahahahaha.
 
-<div class="my-3">
+<div class="my-3 video-container">
     <iframe width="1076" height="807" src="https://www.youtube.com/embed/JE47b3LrcV4" title="GTA Hulk vs King Kong" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
@@ -87,9 +87,9 @@ Coming back to GTA SA, I then started to interact with CLEO mods, by creating my
 
 For those who know me in real life, I have told a couple people about some of the CLEO mods I created which are in my YouTube channel and on Taringa. If you know, you know!
 
-> Taringa was a platform kind of like Reddit, but from Argentina and public for everyone in LATAM. Not that popular these days, but it was AWESOME at the time. I was able to be New Full User (a lot of people rated your posts)
+> Taringa was a platform kind of like Reddit, but from Argentina and public for everyone in LATAM. It doesn't exist now, but it was AWESOME at the time. I was able to be New Full User (your posts got a lot of good ratings)
 
-<div class="my-3">
+<div class="my-3 video-container">
     <iframe width="1211" height="807" src="https://www.youtube.com/embed/YUkteqJKu_M" title="Xander-Files PLUS Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 

@@ -11,7 +11,7 @@
     },
     "home": {
         "welcoming": "Andrés Felipe Estupiñan Peláez",
-        "description": "Página de inicio del ingeniero de software Andrés Felipe Estupiñan Peláez: ingeniero con más de 6 años de experiencia con conocimientos en una variedad de áreas del desarrollo de software.",
+        "description": "Página de inicio del ingeniero de software Andrés Felipe Estupiñan Peláez: ingeniero con más de 7 años de experiencia con conocimientos en una variedad de áreas del desarrollo de software.",
         "my-name": "Desarrollador de software full stack",
         "title": "Inicio",
         "sections": {
@@ -23,8 +23,8 @@
             "full-stack-description": "Conocimiento en lenguajes de programación JavaScript/TypeScript, Java, PHP, C#, Python, Lua y Go",
             "bilingual": "Desarrollador 100% bilingue",
             "bilingual-description": "Habilidades de escritura, lectura y conversacionales de nivel C1 certificado por examen iTEP",
-            "experience-time": "6 años de experiencia",
-            "experience-time-description": "Tengo 6 años de experiencia en el mundo profesional del desarrollo de software",
+            "experience-time": "7 años de experiencia",
+            "experience-time-description": "Tengo 7 años de experiencia en el mundo profesional del desarrollo de software",
             "cicd": "Experiencia con CI/CD",
             "cicd-description": "Tengo experiencia trabajando con Docker, GitLab CI/CD y GitHub Actions para entregar nuevas funcionalidades a los clientes"
         }

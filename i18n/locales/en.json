@@ -11,7 +11,7 @@
     },
     "home": {
         "welcoming": "Andrés Felipe Estupiñan Peláez",
-        "description": "Home page of the software engineer Andrés Felipe Estupiñan peláez: engineer with more than 6 years of working experience with knowledge in a variety of areas of software development.",
+        "description": "Home page of the software engineer Andrés Felipe Estupiñan peláez: engineer with more than 7 years of working experience with knowledge in a variety of areas of software development.",
         "my-name": "Full stack software developer",
         "title": "Home",
         "sections": {
@@ -23,8 +23,8 @@
             "full-stack-description": "Knowledge in the JavaScript/TypeScript, Java, PHP, C#, Python and Go programming languages",
             "bilingual": "100% Bilingual developer",
             "bilingual-description": "Writing, reading and conversational abilities in C1 level, certified by iTEP exam",
-            "experience-time": "6 years of working experience",
-            "experience-time-description": "I have 6 years of working experience in the professional world of software development",
+            "experience-time": "7 years of working experience",
+            "experience-time-description": "I have 7 years of working experience in the professional world of software development",
             "cicd": "Experience with CI/CD",
             "cicd-description": "I have experience working with Docker, GitLab CI/CD and GitHub Actions in order to deliver new features to customers"
         }
