@@ -1,7 +1,7 @@
 ---
 title: "QuickBooks kinda sucks, I'm sorry"
 description: "Learn my frustration against using this platform."
-date: "2026-07-21"
+date: "2026-07-03"
 song: "48uGoiIxeowT0xncdPPcJM"
 ---
 
