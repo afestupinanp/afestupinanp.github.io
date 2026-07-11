@@ -2,6 +2,7 @@
     import academics from '@/info-sources/academics.json';
     import AcademicCategory from '@/enums/AcademicCategory';
     import type Academic from '@/interfaces/Academic';
+    import { createProfilePageSchema, useSchema } from '@/utils/schema-org';
 
     const current = new Date();
     let years = current.getFullYear() - 2000;
@@ -14,13 +15,15 @@
         description: $t('about.description')
     });
 
+    useSchema(createProfilePageSchema());
+
     const formalAcademics: Academic[] = academics.filter((academic) => academic.category == AcademicCategory.Formal) as Academic[];
     const coursesAcademics: Academic[] = academics.filter((academic) => academic.category == AcademicCategory.Course) as Academic[];
 
 </script>
 
 <template>
-    <main class="flex w-full flex-col lg:flex-row slide-up-animation gap-4">
+    <main class="flex w-full flex-col lg:flex-row slide-up-animation gap-4 mx-auto max-w-[1600px]">
         <Card class="flex-1">
             <SectionSeparator icon="fa-solid fa-user-circle" :title="$t('about.myself')" />
             <p v-html="$t('about.myself-description', {years: years})"></p>

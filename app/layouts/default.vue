@@ -3,6 +3,7 @@
     import Navbar from '@/components/Navbar.vue';
     import Background from '@/components/Background.vue';
     import PageHeader from '~/components/PageHeader.vue';
+    import { createWebsiteSchema, useSchema } from '@/utils/schema-org';
 
     const localizedHead = useLocaleHead({
       dir: true,
@@ -22,6 +23,8 @@
     useSeoMeta({
       googleSiteVerification: "U9Tgguy51wP_lRyMhASKbGnOC4OtR8P8UJU4o9Ibq08"
     });
+
+    useSchema(createWebsiteSchema());
 
 </script>
 

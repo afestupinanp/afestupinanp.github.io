@@ -1,10 +1,19 @@
 <script setup lang="ts">
 import { formatDate } from '~/utils/general';
+import { createBlogSchema, createBreadcrumbSchema, useSchema } from '@/utils/schema-org';
 
 useSeoMeta({
     title: `Andrés Peláez - ${$t('navbar.blog')}`,
     description: $t('blog.description', 'Exploring personal topics and engineering.')
 });
+
+useSchema([
+    createBlogSchema(),
+    createBreadcrumbSchema([
+        { name: 'Home', path: '/' },
+        { name: 'Blog', path: '/blog' },
+    ]),
+]);
 
 const { data: posts } = await useAsyncData('blog-posts', () =>
     queryCollection('blog').order('date', 'DESC').all()
@@ -12,7 +21,7 @@ const { data: posts } = await useAsyncData('blog-posts', () =>
 </script>
 
 <template>
-    <main class="w-full flex-col slide-up-animation">
+    <main class="w-full flex-col slide-up-animation mx-auto max-w-[1600px]">
         <Card additional-classes="!w-full">
             <SectionSeparator icon="fa-solid fa-newspaper" :title="$t('navbar.blog')" />
             <p class="my-3">{{ $t('blog.description') }}</p>

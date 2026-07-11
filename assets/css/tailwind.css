@@ -162,7 +162,7 @@ html {
 
 
 .wave-container-1 {
-  animation: waveDriftMain 10s linear infinite alternate;
+  animation: waveDriftMain 7s linear infinite alternate;
 }
 
 .prose img {
@@ -170,7 +170,7 @@ html {
 }
 
 .wave-container-2 {
-  animation: waveDriftSecondary 15s linear infinite alternate;
+  animation: waveDriftSecondary 10s linear infinite alternate;
 }
 
 .prose {

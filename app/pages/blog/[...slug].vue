@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { formatDate } from '~/utils/general';
+import { createBlogPostingSchema, createBreadcrumbSchema, useSchema } from '@/utils/schema-org';
 
 const route = useRoute()
 const { data: post } = await useAsyncData(route.path, () =>
@@ -20,16 +21,31 @@ useSeoMeta({
     twitterTitle: post.value.title,
     twitterDescription: post.value.description,
 });
+
+useSchema([
+    createBlogPostingSchema({
+        title: post.value.title,
+        description: post.value.description,
+        path: post.value.path,
+        date: post.value.date,
+        image: post.value.image,
+    }),
+    createBreadcrumbSchema([
+        { name: 'Home', path: '/' },
+        { name: 'Blog', path: '/blog' },
+        { name: post.value.title, path: post.value.path },
+    ]),
+]);
 </script>
 
 <template>
-    <main v-if="post" class="flex w-full flex-col slide-up-animation gap-4">
+    <main v-if="post" class="flex w-full flex-col slide-up-animation gap-4 mx-auto max-w-6xl">
         <NuxtLink to="/blog" class="inline-flex items-center gap-2 text-white mb-4">
             <i class="fa-solid fa-arrow-left"></i>
             {{ $t('blog.go-back') }}
         </NuxtLink>
 
-        <Card additional-classes="!w-full">
+        <Card additional-classes="!w-full !px-[25px] !py-0">
             <article class="prose max-w-none">
                 <!-- Header -->
                 <div class="mb-8 pb-8 border-b border-gray-700">

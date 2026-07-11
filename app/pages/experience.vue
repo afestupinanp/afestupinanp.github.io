@@ -3,18 +3,27 @@
     import skills from '@/info-sources/skills.json';
     import type SoftSkill from '@/interfaces/SoftSkill';
     import softSkills from '@/info-sources/soft-skills.json';
+    import { createBreadcrumbSchema, createPersonSchema, useSchema } from '@/utils/schema-org';
 
     useSeoMeta({
         title: `Andrés Peláez - ${$t('navbar.experience-skills')}`,
         description: $t('experience-description'),
     });
 
+    useSchema([
+        createPersonSchema(),
+        createBreadcrumbSchema([
+            { name: 'Home', path: '/' },
+            { name: 'Experience and Skills', path: '/experience' },
+        ]),
+    ]);
+
     const softSkillsList: SoftSkill[] = softSkills as SoftSkill[];
 
 </script>
 
 <template>
-    <main class="flex w-full flex-col lg:flex-row slide-up-animation gap-4">
+    <main class="flex w-full flex-col lg:flex-row slide-up-animation gap-4 mx-auto max-w-[1600px]">
         <Card title class="flex-1">
             <SectionSeparator icon="fa-solid fa-briefcase" :title="$t('about.experience')" />
             <ExperienceList :list="experiences" />
