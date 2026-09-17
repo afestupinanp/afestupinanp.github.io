@@ -114,7 +114,35 @@
                 "location": "Servicio Nacional de Aprendizaje SENA"
             }
         ],
+        "certifications": [
+            {
+                "title": "Claude Certified Architect",
+                "time": "Septiembre 2026",
+                "location": "Anthropic"
+            }
+        ],
+        "certifications-title": "Certificaciones",
         "courses": [
+            {
+                "title": "Claude Code in Action",
+                "time": "Febrero 2026",
+                "location": "Anthropic"
+            },
+            {
+                "title": "Introduction to Agent Skills",
+                "time": "Mayo 2026",
+                "location": "Anthropic"
+            },
+            {
+                "title": "Building with the Claude API",
+                "time": "Mayo 2026",
+                "location": "Anthropic"
+            },
+            {
+                "title": "Introduction to the Model Context Protocol",
+                "time": "Mayo 2026",
+                "location": "Anthropic"
+            },
             {
                 "title": "LangChain - Develop AI Agents with LangChain & LangGraph",
                 "time": "Agosto 2025",

@@ -20,6 +20,19 @@ I am a **passionate, respectful, friendly, and kind** professional. I excel in t
 **Servicio Nacional de Aprendizaje (SENA)**
 * Tecnólogo en Análisis y Desarrollo de Sistemas de Información (December 2017 - December 2019)
 
+### Certifications
+* **Claude Certified Architect** — Anthropic (September 2026)
+
+### Courses
+* **Claude Code in Action** — Anthropic (February 2026)
+* **Introduction to Agent Skills** — Anthropic (May 2026)
+* **Building with the Claude API** — Anthropic (May 2026)
+* **Introduction to the Model Context Protocol** — Anthropic (May 2026)
+* **LangChain - Develop AI Agents with LangChain & LangGraph** — Udemy (August 2025)
+* **Course for Emotional Intelligence for Leaders** — Platzi (May 2024)
+* **Google Cloud Computing Foundations** — Google / MinTIC (December 2023)
+* **Microsoft Scrum Foundations** — Intelligent Training / MinTIC (December 2023)
+
 ---
 
 ## Working Experience

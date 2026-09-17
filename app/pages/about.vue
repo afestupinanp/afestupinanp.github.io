@@ -19,6 +19,7 @@
 
     const formalAcademics: Academic[] = academics.filter((academic) => academic.category == AcademicCategory.Formal) as Academic[];
     const coursesAcademics: Academic[] = academics.filter((academic) => academic.category == AcademicCategory.Course) as Academic[];
+    const certificationsAcademics: Academic[] = academics.filter((academic) => academic.category == AcademicCategory.Certification) as Academic[];
 
 </script>
 
@@ -31,6 +32,9 @@
         <Card class="flex-1">
             <SectionSeparator icon="fa-solid fa-graduation-cap" :title="$t('about.academic')" />
             <AcademicList :list="formalAcademics" />
+
+            <SectionSeparator icon="fa-solid fa-certificate" :title="$t('about.certifications-title')" />
+            <CourseList :list="certificationsAcademics" />
 
             <SectionSeparator icon="fa-solid fa-award" :title="$t('about.courses-title')" />
             <CourseList :list="coursesAcademics" />

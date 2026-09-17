@@ -1,6 +1,7 @@
 enum AcademicCategory {
     Formal = 'formal',
-    Course = 'course'
+    Course = 'course',
+    Certification = 'certification'
 }
 
 export default AcademicCategory;

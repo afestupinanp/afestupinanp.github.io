@@ -12,6 +12,12 @@
         "category": "formal"
     },
     {
+        "title": "about.certifications.0.title",
+        "time": "about.certifications.0.time",
+        "location": "about.certifications.0.location",
+        "category": "certification"
+    },
+    {
         "title": "about.courses.0.title",
         "time": "about.courses.0.time",
         "location": "about.courses.0.location",
@@ -33,6 +39,30 @@
         "title": "about.courses.3.title",
         "time": "about.courses.3.time",
         "location": "about.courses.3.location",
+        "category": "course"
+    },
+    {
+        "title": "about.courses.4.title",
+        "time": "about.courses.4.time",
+        "location": "about.courses.4.location",
+        "category": "course"
+    },
+    {
+        "title": "about.courses.5.title",
+        "time": "about.courses.5.time",
+        "location": "about.courses.5.location",
+        "category": "course"
+    },
+    {
+        "title": "about.courses.6.title",
+        "time": "about.courses.6.time",
+        "location": "about.courses.6.location",
+        "category": "course"
+    },
+    {
+        "title": "about.courses.7.title",
+        "time": "about.courses.7.time",
+        "location": "about.courses.7.location",
         "category": "course"
     }
 ]
