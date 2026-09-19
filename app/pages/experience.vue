@@ -23,7 +23,7 @@
 </script>
 
 <template>
-    <main class="flex w-full flex-col lg:flex-row slide-up-animation gap-4 mx-auto max-w-[1600px]">
+    <main class="flex w-full flex-col lg:flex-row slide-up-animation gap-4 page-max-width">
         <Card title class="flex-1">
             <SectionSeparator icon="fa-solid fa-briefcase" :title="$t('about.experience')" />
             <ExperienceList :list="experiences" />

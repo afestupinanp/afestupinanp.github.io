@@ -39,7 +39,7 @@ useSchema([
 </script>
 
 <template>
-    <main v-if="post" class="flex w-full flex-col slide-up-animation gap-4 mx-auto max-w-6xl">
+    <main v-if="post" class="flex w-full flex-col slide-up-animation gap-4 page-max-width">
         <NuxtLink to="/blog" class="inline-flex items-center gap-2 text-white mb-4">
             <i class="fa-solid fa-arrow-left"></i>
             {{ $t('blog.go-back') }}

@@ -21,15 +21,14 @@ const { data: posts } = await useAsyncData('blog-posts', () =>
 </script>
 
 <template>
-    <main class="w-full flex-col slide-up-animation mx-auto max-w-[1600px]">
-        <Card additional-classes="!w-full">
-            <SectionSeparator icon="fa-solid fa-newspaper" :title="$t('navbar.blog')" />
-            <p class="my-3">{{ $t('blog.description') }}</p>
-            <p class="my-3">{{ $t('blog.warning') }}</p>
-
+    <main class="w-full flex-col slide-up-animation page-max-width">
+        <SectionSeparator icon="fa-solid fa-newspaper" :title="$t('navbar.blog')" />
+        <Card additional-classes="!w-full !py-5">
+            <p>{{ $t('blog.description') }}</p>
+            <p class="mb-4">{{ $t('blog.warning') }}</p>
             <div v-if="posts && posts.length > 0" class="space-y-6">
                 <NuxtLink v-for="post in posts" :key="post.path" :to="post.path"
-                    class="block p-6 border-l-4 border-transparent hover:border-white hover:bg-gray-800/50 transition-all rounded-lg">
+                    class="block p-6 border-l-4 border-green-400/30 hover:border-green-400 hover:bg-gray-800/30 hover:shadow-2xl hover:shadow-green-400/30 transition-all rounded-lg">
                     <div class="flex justify-between items-start gap-4">
                         <div class="flex-1">
                             <h2
@@ -60,6 +59,7 @@ const { data: posts } = await useAsyncData('blog-posts', () =>
                     No blog posts available yet. Check back soon!
                 </p>
             </div>
+
         </Card>
     </main>
 </template>

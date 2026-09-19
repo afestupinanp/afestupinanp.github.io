@@ -79,7 +79,6 @@
                     {{ $t(navName) }}
                 </NuxtLinkLocale>
                 <a class="font-bold" href="mailto:andres.pelaez00@hotmail.com?Subject=Interesado%20en%20hablar%20-%20via%20web">{{ $t('navbar.contact-me') }}</a>
-                <LanguageSwitcher />
             </div>
         </Transition>
 

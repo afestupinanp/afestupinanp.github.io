@@ -24,7 +24,7 @@
 </script>
 
 <template>
-    <main class="flex w-full flex-col lg:flex-row slide-up-animation gap-4 mx-auto max-w-[1600px]">
+    <main class="flex w-full flex-col lg:flex-row slide-up-animation gap-4 page-max-width">
         <Card class="flex-1">
             <SectionSeparator icon="fa-solid fa-user-circle" :title="$t('about.myself')" />
             <p v-html="$t('about.myself-description', {years: years})"></p>

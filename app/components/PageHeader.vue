@@ -17,7 +17,7 @@ const {
 <template>
     <header class="mx-auto flex flex-col items-center gap-[50px] justify-center py-[50px]">
         <div class="w-full lg:w-fit text-center">
-            <img src="/assets/me.jpeg" class="rounded-full w-[200px] !h-[200px] object-cover inline-block slide-up-animation" alt="Profile picture of Andrés Felipe Estupiñan" />
+            <img src="/assets/me.jpeg" class="rounded-full w-[200px] !h-[200px] object-cover inline-block slide-up-animation border-4 border-green-400" alt="Profile picture of Andrés Felipe Estupiñan" />
         </div>
         <div class="w-full md:w-fit text-center overflow-hidden">
             <p class="text-xl text-center lg:text-4xl slide-up-animation min-h-[1.5em]">
@@ -43,8 +43,8 @@ const {
                     <a href="https://linkedin.com/in/andrespelaez00" aria-label="LinkedIn link" target="_blank" rel="noopener noreferrer">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
+                    <LanguageSwitcher />
                 </div>
-                <LanguageSwitcher />
             </div>
         </div>
     </header>
