@@ -48,23 +48,24 @@ useSchema([
         <Card additional-classes="!w-full !px-[25px] !py-0">
             <article class="prose max-w-none">
                 <!-- Header -->
-                <div class="mb-8 pb-8 border-b border-gray-700">
+                <div class="mb-8 border-b border-gray-700">
                     <SectionSeparator icon="" :glow="true" size="text-3xl" :title="post.title" />
 
                     <div v-if="post.image" class="mb-6 -mx-6">
                         <img :src="post.image" :alt="post.title" class="w-full h-96 object-cover rounded-lg" />
                     </div>
 
-                    <p class="text-gray-200 text-lg mb-4">
-                        {{ post.description }}
-                    </p>
-
-                    <div v-if="post.date" class="flex flex-wrap items-center gap-6 text-sm text-gray-200">
+                    <div v-if="post.date" class="flex flex-wrap items-center gap-6 text-sm mb-3 text-gray-200">
                         <span class="flex items-center gap-2">
                             <i class="fa-solid fa-calendar"></i>
                             {{ formatDate(post.date) }}
                         </span>
                     </div>
+
+                    <p class="text-gray-200 text-base">
+                        {{ post.description }}
+                    </p>
+
                 </div>
 
                 <!-- Spotify Player -->
