@@ -7,9 +7,9 @@
 </script>
 
 <template>
-    <ul class="list-disc space-y-5">
+    <ul class="list-disc list-inside space-y-5">
         <li v-for="experience in list">
-            <span class="text-xl font-bold">{{ $t(experience.location) }}</span><br/>
+            <span class="text-lg font-bold">{{ $t(experience.location) }}</span><br/>
             <span v-html="`${$t(experience.time)} | <i>${$t(experience.title)}</i>`"></span><br/>
         </li>
     </ul>
