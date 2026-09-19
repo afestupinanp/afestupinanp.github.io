@@ -41,19 +41,33 @@
 <template>
     <div id="sentinel"></div>
     <nav id="header" class="w-full flex flex-col top-0 sticky items-center text-white p-5 z-[999] slide-up-animation" :class="{'backdrop-blur-lg bg-[#1a1c1f]/75': shouldAddClass}">
-        <!-- Mobile: hamburger button + current page indicator -->
-        <div class="flex w-full sm:hidden items-center justify-between">
-            <button @click="isMenuOpen = !isMenuOpen" class="text-white focus:outline-none" aria-label="Toggle menu">
-                <HamburgerIcon v-if="!isMenuOpen" />
-                <CloseIcon v-else />
-            </button>
-            <span class="font-bold text-sm">{{ $t(currentPageName) }}</span>
-            <div class="w-6" />
+        <!-- Mobile: hamburger button + current page indicator + social links -->
+        <div class="flex w-full min-[825px]:hidden items-center justify-between">
+            <div class="flex items-center gap-2">
+                <button @click="isMenuOpen = !isMenuOpen" class="text-white focus:outline-none" aria-label="Toggle menu">
+                    <HamburgerIcon v-if="!isMenuOpen" />
+                    <CloseIcon v-else />
+                </button>
+                <img v-if="shouldAddClass" src="/assets/me.jpeg" class="w-6 h-6 rounded-full object-cover border border-green-400" alt="Profile" />
+                <span class="font-bold text-sm">{{ $t(currentPageName) }}</span>
+            </div>
+            <div v-if="shouldAddClass" class="flex items-center gap-2 text-base transition-all duration-300">
+                <a href="https://x.com/andrespelaez00" aria-label="Twitter/X link" target="_blank" rel="noopener noreferrer" class="hover:text-green-400 transition-colors">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="https://github.com/afestupinanp" aria-label="GitHub link" target="_blank" rel="noopener noreferrer" class="hover:text-green-400 transition-colors">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/andrespelaez00" aria-label="LinkedIn link" target="_blank" rel="noopener noreferrer" class="hover:text-green-400 transition-colors">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <LanguageSwitcher />
+            </div>
         </div>
 
         <!-- Mobile: dropdown menu -->
         <Transition name="menu-slide">
-            <div v-if="isMenuOpen" class="flex flex-col sm:hidden w-full items-center gap-4 pt-4 pb-2">
+            <div v-if="isMenuOpen" class="flex flex-col min-[825px]:hidden w-full items-center gap-4 pt-4 pb-2">
                 <NuxtLinkLocale
                     v-for="[navName, route] in Object.entries(ROUTES)"
                     :key="navName"
@@ -65,12 +79,19 @@
                     {{ $t(navName) }}
                 </NuxtLinkLocale>
                 <a class="font-bold" href="mailto:andres.pelaez00@hotmail.com?Subject=Interesado%20en%20hablar%20-%20via%20web">{{ $t('navbar.contact-me') }}</a>
+                <LanguageSwitcher />
             </div>
         </Transition>
 
         <!-- Desktop: horizontal links -->
-        <div class="hidden sm:flex w-full justify-center">
-            <div class="flex gap-10">
+        <div class="hidden min-[825px]:flex w-full items-center justify-between relative">
+            <!-- Left: profile image (only when stickied) -->
+            <div v-if="shouldAddClass" class="flex items-center ml-2 lg:ml-4 transition-all duration-300">
+                <img src="/assets/me.jpeg" class="w-8 h-8 lg:w-9 lg:h-9 rounded-full object-cover border-2 border-green-400" alt="Profile" />
+            </div>
+
+            <!-- Center: nav links -->
+            <div class="flex gap-6 lg:gap-10 absolute left-1/2 -translate-x-1/2">
                 <NuxtLinkLocale
                     v-for="[navName, route] in Object.entries(ROUTES)"
                     :key="navName"
@@ -81,6 +102,20 @@
                     {{ $t(navName) }}
                 </NuxtLinkLocale>
                 <a class="font-bold" href="mailto:andres.pelaez00@hotmail.com?Subject=Interesado%20en%20hablar%20-%20via%20web">{{ $t('navbar.contact-me') }}</a>
+            </div>
+
+            <!-- Right: social buttons (only when stickied) -->
+            <div v-if="shouldAddClass" class="flex items-center gap-2 lg:gap-3 mr-2 lg:mr-4 text-lg lg:text-xl transition-all duration-300">
+                <a href="https://x.com/andrespelaez00" aria-label="Twitter/X link" target="_blank" rel="noopener noreferrer" class="hover:text-green-400 transition-colors">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="https://github.com/afestupinanp" aria-label="GitHub link" target="_blank" rel="noopener noreferrer" class="hover:text-green-400 transition-colors">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/andrespelaez00" aria-label="LinkedIn link" target="_blank" rel="noopener noreferrer" class="hover:text-green-400 transition-colors">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <LanguageSwitcher />
             </div>
         </div>
     </nav>
