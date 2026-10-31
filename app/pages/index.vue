@@ -19,7 +19,7 @@
     <main class="w-full slide-up-animation page-max-width">
         <SectionSeparator :title="$t('home.sections.my-knowledge')" icon="fa-solid fa-computer" />
         <div class="flex flex-col lg:flex-row justify-center gap-10 my-4">
-            <Card v-for="card in knowledgeCardsInfo" additional-classes="border-t-1 border-t-green-400 text-center" hoverable>
+            <Card v-for="card in knowledgeCardsInfo" additional-classes="border-t-1 border-t-primary text-center" hoverable>
                 <i :class="`${card.icon} fs-1 text-5xl my-5`"></i>
                 <h3 class="font-bold text-2xl mb-5">{{ $t(card.title) }}</h3>
                 <p>{{ $t(card.description) }}</p>

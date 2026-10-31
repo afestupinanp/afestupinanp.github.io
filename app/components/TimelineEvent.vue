@@ -6,7 +6,7 @@
 <template>
     <div class="flex items-center w-full my-6">
         <div class="w-1/2"></div>
-        <div class="relative w-6 h-6 rounded-full bg-green-300 z-10 -ml-3"></div>
+        <div class="relative w-6 h-6 rounded-full bg-primary z-10 -ml-3"></div>
         <div class="flex-grow border-t-2 border-gray-300"></div>
         <div class="w-1/2 pl-4">
             <h3 class="text-lg font-semibold">{{ event.title }}</h3>

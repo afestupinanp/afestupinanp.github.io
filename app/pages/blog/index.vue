@@ -28,7 +28,7 @@ const { data: posts } = await useAsyncData('blog-posts', () =>
             <p class="mb-4">{{ $t('blog.warning') }}</p>
             <div v-if="posts && posts.length > 0" class="space-y-6">
                 <NuxtLink v-for="post in posts" :key="post.path" :to="post.path"
-                    class="block p-6 border-l-4 border-green-400/30 hover:border-green-400 hover:bg-gray-800/30 hover:shadow-2xl hover:shadow-green-400/30 transition-all rounded-lg">
+                    class="block p-6 border-l-4 border-primary/30 hover:border-primary hover:bg-gray-800/30 hover:shadow-2xl hover:shadow-primary/30 transition-all rounded-lg">
                     <div class="flex justify-between items-start gap-4">
                         <div class="flex-1">
                             <h2

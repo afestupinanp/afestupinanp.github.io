@@ -40,7 +40,7 @@ useSchema([
 
 <template>
     <main v-if="post" class="flex w-full flex-col slide-up-animation gap-4 page-max-width">
-        <NuxtLink to="/blog" class="inline-flex items-center gap-2 text-white mb-4">
+        <NuxtLink to="/blog" class="inline-flex items-center gap-2 text-white mb-4 transition-all duration-200 hover:text-primary hover:drop-shadow-[0_0_8px_rgb(var(--color-primary)/0.55)]">
             <i class="fa-solid fa-arrow-left"></i>
             {{ $t('blog.go-back') }}
         </NuxtLink>

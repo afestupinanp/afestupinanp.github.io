@@ -9,6 +9,12 @@
     const shouldAddClass = ref(false);
     const isMenuOpen = ref(false);
 
+    const { t } = useI18n();
+
+    const contactMailto = computed(() =>
+        `mailto:andres.pelaez00@hotmail.com?subject=${encodeURIComponent(t('navbar.contact-subject'))}`
+    );
+
     const route = useRoute();
 
     const currentPageName = computed(() => {
@@ -48,17 +54,17 @@
                     <HamburgerIcon v-if="!isMenuOpen" />
                     <CloseIcon v-else />
                 </button>
-                <img v-if="shouldAddClass" src="/assets/me.jpeg" class="w-6 h-6 rounded-full object-cover border border-green-400" alt="Profile" />
+                <img v-if="shouldAddClass" src="/assets/me.jpeg" class="w-6 h-6 rounded-full object-cover border border-primary" alt="Profile" />
                 <span class="font-bold text-sm">{{ $t(currentPageName) }}</span>
             </div>
             <div v-if="shouldAddClass" class="flex items-center gap-2 text-base transition-all duration-300">
-                <a href="https://x.com/andrespelaez00" aria-label="Twitter/X link" target="_blank" rel="noopener noreferrer" class="hover:text-green-400 transition-colors">
+                <a href="https://x.com/andrespelaez00" aria-label="Twitter/X link" target="_blank" rel="noopener noreferrer" class="hover:text-primary hover:drop-shadow-[0_0_8px_rgb(var(--color-primary)/0.55)] transition-all duration-200">
                     <i class="fa-brands fa-x-twitter"></i>
                 </a>
-                <a href="https://github.com/afestupinanp" aria-label="GitHub link" target="_blank" rel="noopener noreferrer" class="hover:text-green-400 transition-colors">
+                <a href="https://github.com/afestupinanp" aria-label="GitHub link" target="_blank" rel="noopener noreferrer" class="hover:text-primary hover:drop-shadow-[0_0_8px_rgb(var(--color-primary)/0.55)] transition-all duration-200">
                     <i class="fa-brands fa-github"></i>
                 </a>
-                <a href="https://linkedin.com/in/andrespelaez00" aria-label="LinkedIn link" target="_blank" rel="noopener noreferrer" class="hover:text-green-400 transition-colors">
+                <a href="https://linkedin.com/in/andrespelaez00" aria-label="LinkedIn link" target="_blank" rel="noopener noreferrer" class="hover:text-primary hover:drop-shadow-[0_0_8px_rgb(var(--color-primary)/0.55)] transition-all duration-200">
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
                 <LanguageSwitcher />
@@ -71,14 +77,14 @@
                 <NuxtLinkLocale
                     v-for="[navName, route] in Object.entries(ROUTES)"
                     :key="navName"
-                    class="font-bold transition-all duration-200 ease-in-out"
-                    active-class="glow"
+                    class="nav-link font-bold"
+                    active-class="nav-link-active"
                     :to="route"
                     @click="isMenuOpen = false"
                 >
                     {{ $t(navName) }}
                 </NuxtLinkLocale>
-                <a class="font-bold" href="mailto:andres.pelaez00@hotmail.com?Subject=Interesado%20en%20hablar%20-%20via%20web">{{ $t('navbar.contact-me') }}</a>
+                <a class="nav-link font-bold" :href="contactMailto">{{ $t('navbar.contact-me') }}</a>
             </div>
         </Transition>
 
@@ -86,7 +92,7 @@
         <div class="hidden min-[825px]:flex w-full items-center justify-between relative">
             <!-- Left: profile image (only when stickied) -->
             <div v-if="shouldAddClass" class="flex items-center ml-2 lg:ml-4 transition-all duration-300">
-                <img src="/assets/me.jpeg" class="w-8 h-8 lg:w-9 lg:h-9 rounded-full object-cover border-2 border-green-400" alt="Profile" />
+                <img src="/assets/me.jpeg" class="w-8 h-8 lg:w-9 lg:h-9 rounded-full object-cover border-2 border-primary" alt="Profile" />
             </div>
 
             <!-- Center: nav links -->
@@ -94,24 +100,24 @@
                 <NuxtLinkLocale
                     v-for="[navName, route] in Object.entries(ROUTES)"
                     :key="navName"
-                    class="font-bold transition-all duration-200 ease-in-out"
-                    active-class="glow"
+                    class="nav-link font-bold"
+                    active-class="nav-link-active"
                     :to="route"
                 >
                     {{ $t(navName) }}
                 </NuxtLinkLocale>
-                <a class="font-bold" href="mailto:andres.pelaez00@hotmail.com?Subject=Interesado%20en%20hablar%20-%20via%20web">{{ $t('navbar.contact-me') }}</a>
+                <a class="nav-link font-bold" :href="contactMailto">{{ $t('navbar.contact-me') }}</a>
             </div>
 
             <!-- Right: social buttons (only when stickied) -->
             <div v-if="shouldAddClass" class="flex items-center gap-2 lg:gap-3 mr-2 lg:mr-4 text-lg lg:text-xl transition-all duration-300">
-                <a href="https://x.com/andrespelaez00" aria-label="Twitter/X link" target="_blank" rel="noopener noreferrer" class="hover:text-green-400 transition-colors">
+                <a href="https://x.com/andrespelaez00" aria-label="Twitter/X link" target="_blank" rel="noopener noreferrer" class="hover:text-primary hover:drop-shadow-[0_0_8px_rgb(var(--color-primary)/0.55)] transition-all duration-200">
                     <i class="fa-brands fa-x-twitter"></i>
                 </a>
-                <a href="https://github.com/afestupinanp" aria-label="GitHub link" target="_blank" rel="noopener noreferrer" class="hover:text-green-400 transition-colors">
+                <a href="https://github.com/afestupinanp" aria-label="GitHub link" target="_blank" rel="noopener noreferrer" class="hover:text-primary hover:drop-shadow-[0_0_8px_rgb(var(--color-primary)/0.55)] transition-all duration-200">
                     <i class="fa-brands fa-github"></i>
                 </a>
-                <a href="https://linkedin.com/in/andrespelaez00" aria-label="LinkedIn link" target="_blank" rel="noopener noreferrer" class="hover:text-green-400 transition-colors">
+                <a href="https://linkedin.com/in/andrespelaez00" aria-label="LinkedIn link" target="_blank" rel="noopener noreferrer" class="hover:text-primary hover:drop-shadow-[0_0_8px_rgb(var(--color-primary)/0.55)] transition-all duration-200">
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
                 <LanguageSwitcher />
@@ -121,6 +127,35 @@
 </template>
 
 <style scoped>
+.nav-link {
+    position: relative;
+    transition: color 0.2s ease-in-out, text-shadow 0.2s ease-in-out;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(var(--color-primary));
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.nav-link:hover,
+.nav-link-active {
+    color: rgb(var(--color-primary));
+    text-shadow: 0 0 20px rgb(var(--color-primary) / 0.55);
+}
+
+.nav-link:hover::after,
+.nav-link-active::after {
+    transform: scaleX(1);
+}
+
 .menu-slide-enter-active,
 .menu-slide-leave-active {
     transition: all 0.3s ease-in-out;

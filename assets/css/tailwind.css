@@ -4,6 +4,8 @@
 
 :root {
     --page-max-width: 1500px;
+    /* Primary brand color as RGB channels so Tailwind alpha modifiers work. */
+    --color-primary: 52 211 153;
 }
 
 .page-max-width {
@@ -37,7 +39,7 @@ html {
 }
 
 .glow {
-    @apply [text-shadow:0_0_20px_rgba(0,255,255,0.7)];
+    text-shadow: 0 0 20px rgb(var(--color-primary) / 0.55);
 }
 
 .badge-red {

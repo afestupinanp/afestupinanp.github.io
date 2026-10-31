@@ -17,7 +17,7 @@ const {
 <template>
     <header class="mx-auto flex flex-col items-center gap-[50px] justify-center py-[50px]">
         <div class="w-full lg:w-fit text-center">
-            <img src="/assets/me.jpeg" class="rounded-full w-[200px] !h-[200px] object-cover inline-block slide-up-animation border-4 border-green-400" alt="Profile picture of Andrés Felipe Estupiñan" />
+            <img src="/assets/me.jpeg" class="rounded-full w-[200px] !h-[200px] object-cover inline-block slide-up-animation border-4 border-primary" alt="Profile picture of Andrés Felipe Estupiñan" />
         </div>
         <div class="w-full md:w-fit text-center overflow-hidden">
             <p class="text-xl text-center lg:text-4xl slide-up-animation min-h-[1.5em]">
@@ -34,13 +34,13 @@ const {
             </p>
             <div class="w-full flex flex-col lg:flex-row mt-5 gap-10 lg:gap-5 justify-center slide-up-animation">
                 <div class="flex items-center justify-center gap-3 text-2xl">
-                    <a href="https://x.com/andrespelaez00" aria-label="Twitter/X link" target="_blank" rel="noopener noreferrer">
+                    <a href="https://x.com/andrespelaez00" aria-label="Twitter/X link" target="_blank" rel="noopener noreferrer" class="hover:text-primary hover:drop-shadow-[0_0_8px_rgb(var(--color-primary)/0.55)] transition-all duration-200">
                         <i class="fa-brands fa-x-twitter"></i>
                     </a>
-                    <a href="https://github.com/afestupinanp" aria-label="GitHub link" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/afestupinanp" aria-label="GitHub link" target="_blank" rel="noopener noreferrer" class="hover:text-primary hover:drop-shadow-[0_0_8px_rgb(var(--color-primary)/0.55)] transition-all duration-200">
                         <i class="fa-brands fa-github"></i>
                     </a>
-                    <a href="https://linkedin.com/in/andrespelaez00" aria-label="LinkedIn link" target="_blank" rel="noopener noreferrer">
+                    <a href="https://linkedin.com/in/andrespelaez00" aria-label="LinkedIn link" target="_blank" rel="noopener noreferrer" class="hover:text-primary hover:drop-shadow-[0_0_8px_rgb(var(--color-primary)/0.55)] transition-all duration-200">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
                     <LanguageSwitcher />
@@ -53,7 +53,7 @@ const {
 <style scoped>
 .typing-cursor {
     font-weight: bold;
-    color: #4ade80;
+    color: rgb(var(--color-primary));
 }
 
 .typing-cursor.blink {

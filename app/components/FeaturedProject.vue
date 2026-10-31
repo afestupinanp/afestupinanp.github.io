@@ -20,11 +20,11 @@
             <h3 class="font-bold text-3xl mb-5">{{ $t(cardInfo.title) }}</h3>
             <p class="block my-3">{{ $t(cardInfo.description )}}</p>
             <div class="flex flex-row gap-3">
-                <a v-if="cardInfo.website" class="border-[1px] rounded border-green-400 p-2 inline-block hover:bg-green-400 transition-colors hover:text-black" :href="cardInfo.website" target="_blank" rel="noopener noreferrer">
+                <a v-if="cardInfo.website" class="rounded-full bg-primary text-black font-semibold px-4 py-2 inline-block transition-all duration-200 hover:bg-primary/80 hover:shadow-[0_0_20px_rgb(var(--color-primary)/0.35)]" :href="cardInfo.website" target="_blank" rel="noopener noreferrer">
                     <i class="fa-solid fa-up-right-from-square"></i>
                     {{ $t("projects.visit-page") }}
                 </a>
-                <a v-if="cardInfo.repository" class="border-[1px] rounded border-green-400 p-2 inline-block hover:bg-green-400 transition-colors hover:text-black" :href="cardInfo.repository" target="_blank" rel="noopener noreferrer">
+                <a v-if="cardInfo.repository" class="rounded-full bg-primary text-black font-semibold px-4 py-2 inline-block transition-all duration-200 hover:bg-primary/80 hover:shadow-[0_0_20px_rgb(var(--color-primary)/0.35)]" :href="cardInfo.repository" target="_blank" rel="noopener noreferrer">
                     <i class="fa-solid fa-code-branch"></i>
                     {{ $t("projects.code-repo") }}
                 </a>
