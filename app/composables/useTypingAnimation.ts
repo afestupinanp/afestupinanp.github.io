@@ -54,7 +54,10 @@ export function useTypingAnimation(nameText: () => string, jobText: () => string
         startTypingAnimation()
     })
 
-    watch(fullName, () => {
+    // Replay when either string changes. Watching both matters because some
+    // locales share the same name (e.g. en/es), so watching only the name
+    // would miss a language switch.
+    watch([fullName, jobTitle], () => {
         startTypingAnimation()
     })
 

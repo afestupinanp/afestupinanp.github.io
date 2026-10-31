@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { t } = useI18n()
+const { t, locales, getLocaleMessage } = useI18n()
 
 const {
     typedName,
@@ -12,6 +12,15 @@ const {
     () => t('home.welcoming'),
     () => t('home.my-name'),
 )
+
+// Reserve the width of the longest translation so switching locales
+// doesn't resize the container and shift the centered layout.
+const allNames = computed(() =>
+    locales.value.map(locale => getLocaleMessage(locale.code)?.home?.welcoming ?? '')
+)
+const allJobs = computed(() =>
+    locales.value.map(locale => getLocaleMessage(locale.code)?.home?.['my-name'] ?? '')
+)
 </script>
 
 <template>
@@ -22,14 +31,18 @@ const {
         <div class="w-full md:w-fit text-center overflow-hidden">
             <p class="text-xl text-center lg:text-4xl slide-up-animation min-h-[1.5em]">
                 <span class="relative inline-block whitespace-nowrap introductory-text">
-                    <span class="invisible">{{ fullName }}</span>
-                    <span class="absolute left-0 top-0 whitespace-nowrap">{{ typedName }}<span class="typing-cursor" :class="{ 'blink': isTypingDone }">|</span></span>
+                    <span class="invisible grid" aria-hidden="true">
+                        <span v-for="name in allNames" :key="name" class="[grid-area:1/1]">{{ name }}</span>
+                    </span>
+                    <span class="absolute inset-0 text-center whitespace-nowrap">{{ typedName }}<span class="typing-cursor" :class="{ 'blink': isTypingDone }">|</span></span>
                 </span>
             </p>
             <p class="text-lg text-center lg:text-2xl slide-up-animation min-h-[1.5em]">
                 <span class="relative inline-block whitespace-nowrap introductory-text">
-                    <span class="invisible">{{ jobTitle }}</span>
-                    <span class="absolute left-0 top-0 whitespace-nowrap">{{ typedJob }}<span class="typing-cursor" :class="{ 'blink': isJobTypingDone }">|</span></span>
+                    <span class="invisible grid" aria-hidden="true">
+                        <span v-for="job in allJobs" :key="job" class="[grid-area:1/1]">{{ job }}</span>
+                    </span>
+                    <span class="absolute inset-0 text-center whitespace-nowrap">{{ typedJob }}<span class="typing-cursor" :class="{ 'blink': isJobTypingDone }">|</span></span>
                 </span>
             </p>
             <div class="w-full flex flex-col lg:flex-row mt-5 gap-10 lg:gap-5 justify-center slide-up-animation">
