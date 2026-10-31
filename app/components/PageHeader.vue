@@ -21,13 +21,13 @@ const {
         </div>
         <div class="w-full md:w-fit text-center overflow-hidden">
             <p class="text-xl text-center lg:text-4xl slide-up-animation min-h-[1.5em]">
-                <span class="relative inline-block whitespace-nowrap">
+                <span class="relative inline-block whitespace-nowrap introductory-text">
                     <span class="invisible">{{ fullName }}</span>
                     <span class="absolute left-0 top-0 whitespace-nowrap">{{ typedName }}<span class="typing-cursor" :class="{ 'blink': isTypingDone }">|</span></span>
                 </span>
             </p>
             <p class="text-lg text-center lg:text-2xl slide-up-animation min-h-[1.5em]">
-                <span class="relative inline-block whitespace-nowrap">
+                <span class="relative inline-block whitespace-nowrap introductory-text">
                     <span class="invisible">{{ jobTitle }}</span>
                     <span class="absolute left-0 top-0 whitespace-nowrap">{{ typedJob }}<span class="typing-cursor" :class="{ 'blink': isJobTypingDone }">|</span></span>
                 </span>
@@ -51,6 +51,10 @@ const {
 </template>
 
 <style scoped>
+.introductory-text {
+    font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
 .typing-cursor {
     font-weight: bold;
     color: rgb(var(--color-primary));

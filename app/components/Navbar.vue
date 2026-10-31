@@ -129,6 +129,7 @@
 <style scoped>
 .nav-link {
     position: relative;
+    font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     transition: color 0.2s ease-in-out, text-shadow 0.2s ease-in-out;
 }
 
